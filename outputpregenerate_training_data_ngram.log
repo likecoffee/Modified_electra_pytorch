@@ -1,0 +1,841 @@
+04/22/2020 11:31:15 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_pretrained_model/electra_base/vocab.txt')
+04/22/2020 11:32:08 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 11:33:03 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 11:33:51 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 11:36:33 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=False, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 11:36:33 - INFO - root -   pregenetate electra_file_0.json
+04/22/2020 11:39:41 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 11:40:24 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 11:41:17 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 11:42:21 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 11:42:21 - INFO - root -   pregenetate electra_file_0.json
+04/22/2020 11:43:06 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:06 - INFO - root -   id: 0
+04/22/2020 11:43:06 - INFO - root -   original tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 11:43:06 - INFO - root -   tokens: [CLS] = [MASK] [MASK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 11:43:06 - INFO - root -   masked_lm_labels: = [UNK]
+04/22/2020 11:43:06 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 1 1 1 1 1 1
+04/22/2020 11:43:06 - INFO - root -   masked_lm_positions: 2 3
+04/22/2020 11:43:06 - INFO - root -   is_random_next : True
+04/22/2020 11:43:06 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:06 - INFO - root -   id: 1
+04/22/2020 11:43:06 - INFO - root -   original tokens: [CLS] = = [UNK] command ##ment = = [SEP] = = [UNK] command ##ment = = [SEP]
+04/22/2020 11:43:06 - INFO - root -   tokens: [CLS] = = [MASK] command ##ment = = [SEP] = [MASK] [MASK] command ##ment = = [SEP]
+04/22/2020 11:43:06 - INFO - root -   masked_lm_labels: [UNK] = [UNK]
+04/22/2020 11:43:06 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 11:43:06 - INFO - root -   masked_lm_positions: 3 10 11
+04/22/2020 11:43:06 - INFO - root -   is_random_next : True
+04/22/2020 11:43:06 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:06 - INFO - root -   id: 2
+04/22/2020 11:43:06 - INFO - root -   original tokens: [CLS] of her own and remaining in control of the battle site ; [UNK] because the vital convoy had passed through the [UNK] unharmed and arrived in [UNK] without significant loss . [UNK] two fleets were showered by their respective nations with both praise and criticism – the latter particularly directed at those captains not felt to have contributed significantly to the fighting . [SEP] of her own and remaining in control of the battle site ; [UNK] because the vital convoy had passed through the [UNK] unharmed and arrived in [UNK] without significant loss . [UNK] two fleets were showered by their respective nations with both praise and criticism – the latter particularly directed at those captains not felt to have contributed significantly to the fighting [SEP]
+04/22/2020 11:43:06 - INFO - root -   tokens: [CLS] of her own [MASK] remaining in control of [MASK] battle site ; [MASK] because the vital convoy had passed [MASK] the [UNK] unharmed and arrived in [UNK] without significant highest [MASK] [UNK] [MASK] fleets were showered by their respective nations with both praise [MASK] criticism [MASK] the latter particularly directed at those captains not [MASK] [MASK] have contributed significantly to the majority . [SEP] of her own and remaining in control of the battle site [MASK] [UNK] because the [MASK] [MASK] [MASK] passed through the [UNK] unharmed and arrived in [UNK] without significant loss [MASK] [MASK] two fleets were showered by their respective nations with both praise and criticism – the latter particularly directed at those captains not politics to have contributed significantly to the fighting [SEP]
+04/22/2020 11:43:06 - INFO - root -   masked_lm_labels: and the [UNK] through loss . two and – felt to fighting ; vital convoy had . [UNK] felt
+04/22/2020 11:43:06 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:43:06 - INFO - root -   masked_lm_positions: 4 9 13 20 30 31 33 44 46 55 56 62 76 80 81 82 95 96 119
+04/22/2020 11:43:06 - INFO - root -   is_random_next : True
+04/22/2020 11:43:06 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:06 - INFO - root -   id: 3
+04/22/2020 11:43:06 - INFO - root -   original tokens: [CLS] among the teams without < un ##k > the [UNK] itself . [UNK] trading continued for much of the 20th century until [UNK] started buying up many of the shares in the 1960s . [UNK] was chairman and substantial shareholder of " [UNK] [UNK] [UNK] . [UNK] . " from 1968 to 1975 and the majority shareholder from 1982 to 2006 . [UNK] [SEP] to investors as a way of facilitating trading among the teams without < un ##k > the [UNK] itself . [UNK] trading continued for much of the 20th century until [UNK] started buying up many of the shares in the 1960s . [UNK] was chairman and substantial shareholder of " [UNK] [UNK] [UNK] . [UNK] . " from 1968 to 1975 and [SEP]
+04/22/2020 11:43:06 - INFO - root -   tokens: [CLS] among the teams without < un ##k > the [UNK] [MASK] . [UNK] [MASK] [MASK] [MASK] much of the 20th century until [MASK] started [MASK] up many of the shares in the 1960s . [MASK] [MASK] chairman and substantial shareholder of " [UNK] [UNK] [MASK] . [UNK] [MASK] " from 1968 to [MASK] and [MASK] majority shareholder from 1982 to after [MASK] [MASK] [SEP] to investors as a way of facilitating trading among the teams without < un ##k > the [UNK] itself . [UNK] trading continued for much of the 20th century until [UNK] started buying up many of the shares in the 1960s . [MASK] [MASK] chairman and substantial shareholder of " [UNK] [UNK] [UNK] . [UNK] . " from 1968 to 1975 and [SEP]
+04/22/2020 11:43:06 - INFO - root -   masked_lm_labels: ##k itself trading continued for [UNK] started buying [UNK] was [UNK] . " 1975 the 2006 . [UNK] [UNK] was
+04/22/2020 11:43:06 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:43:06 - INFO - root -   masked_lm_positions: 7 11 14 15 16 23 24 25 35 36 45 48 49 53 55 61 62 63 107 108
+04/22/2020 11:43:06 - INFO - root -   is_random_next : True
+04/22/2020 11:43:06 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:06 - INFO - root -   id: 4
+04/22/2020 11:43:06 - INFO - root -   original tokens: [CLS] shares , making him the majority shareholder . [UNK] also appointed himself [UNK] of the club . [UNK] [UNK] ' s last year in charge [UNK] lost £ < un ##k > before tax , compared with a £ < un ##k > profit the previous year , and income had fallen from £ < un ##k > to £ < un ##k [SEP] shares , making him the majority shareholder . [UNK] also appointed himself [UNK] of the club . [UNK] [UNK] ' s last year in charge [UNK] lost £ < un ##k > before tax , compared with a £ < un ##k > profit the previous year , and income had fallen from £ < un ##k > to £ < un [SEP]
+04/22/2020 11:43:06 - INFO - root -   tokens: [CLS] shares , making him the majority shareholder . [UNK] also appointed himself [MASK] [MASK] [MASK] club distortion [UNK] [UNK] ' s last year in [MASK] ##vira ii £ < un ##k > before tax , compared with a £ < un ##k > [MASK] the [MASK] [MASK] , and income had fallen from £ [MASK] un [MASK] > [MASK] £ < un ##k [SEP] shares , making him the majority shareholder . [UNK] also appointed [MASK] [MASK] of the club [MASK] [UNK] [UNK] ' s last year in charge [UNK] lost [MASK] < un ##k > before tax , compared with a £ < un ##k > profit the previous year , and income had fallen from £ < un ##k [MASK] [MASK] ##urian < un [SEP]
+04/22/2020 11:43:06 - INFO - root -   masked_lm_labels: [UNK] of the . charge [UNK] lost profit previous year < un ##k to himself [UNK] . £ > to £
+04/22/2020 11:43:06 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:43:06 - INFO - root -   masked_lm_positions: 13 14 15 17 25 26 27 44 46 47 55 56 57 59 76 77 81 92 122 123 124
+04/22/2020 11:43:06 - INFO - root -   is_random_next : True
+04/22/2020 11:43:07 - INFO - root -   pregenetate electra_file_1.json
+04/22/2020 11:43:50 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:50 - INFO - root -   id: 0
+04/22/2020 11:43:50 - INFO - root -   original tokens: [CLS] = = [UNK] and fitting ##s = = [SEP] = = [UNK] and fitting ##s = = [SEP]
+04/22/2020 11:43:50 - INFO - root -   tokens: [CLS] trieste [MASK] [UNK] and [MASK] [MASK] = = [SEP] = = [UNK] and fitting ##s = = [SEP]
+04/22/2020 11:43:50 - INFO - root -   masked_lm_labels: = = fitting ##s
+04/22/2020 11:43:50 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1
+04/22/2020 11:43:50 - INFO - root -   masked_lm_positions: 1 2 5 6
+04/22/2020 11:43:50 - INFO - root -   is_random_next : False
+04/22/2020 11:43:50 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:50 - INFO - root -   id: 1
+04/22/2020 11:43:50 - INFO - root -   original tokens: [CLS] = = = [UNK] [UNK] [UNK] = = = [SEP] = = = [UNK] [UNK] [UNK] = = = [SEP]
+04/22/2020 11:43:50 - INFO - root -   tokens: [CLS] = = = [UNK] [UNK] [UNK] = [MASK] [MASK] [MASK] [MASK] = = [UNK] [UNK] [UNK] = = = [SEP]
+04/22/2020 11:43:50 - INFO - root -   masked_lm_labels: = = [SEP] = =
+04/22/2020 11:43:50 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:43:50 - INFO - root -   masked_lm_positions: 8 9 10 11 13
+04/22/2020 11:43:50 - INFO - root -   is_random_next : True
+04/22/2020 11:43:50 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:50 - INFO - root -   id: 2
+04/22/2020 11:43:50 - INFO - root -   original tokens: [CLS] ago at the end of the [UNK] . [UNK] the end of the last glacial period , a great migration of humans began , traveling via the [UNK] land bridge from [UNK] into and throughout the [UNK] . [UNK] they traveled slowly over centuries , the [UNK] [UNK] formed one of the main migration paths . [UNK] settled in the [UNK] [UNK] and [SEP] end of the [UNK] . [UNK] the end of the last glacial period , a great migration of humans began , traveling via the [UNK] land bridge from [UNK] into and throughout the [UNK] . [UNK] they traveled slowly over centuries , the [UNK] [UNK] formed one of the main migration paths . [UNK] settled in the [UNK] [UNK] and the lower [SEP]
+04/22/2020 11:43:50 - INFO - root -   tokens: [CLS] ago at the end of the [UNK] . [UNK] the end of the last glacial period , a great migration of humans began , traveling via the [UNK] land [MASK] from [UNK] into and throughout the [MASK] . [UNK] they traveled slowly over centuries , the [UNK] [UNK] formed one [MASK] [MASK] main migration paths [MASK] [MASK] [MASK] in the [UNK] [UNK] and [SEP] end of the [UNK] [MASK] [UNK] the [MASK] [MASK] the [MASK] [MASK] [MASK] , a great migration of humans began , traveling via [MASK] [UNK] land bridge [MASK] tall into and throughout the [UNK] . [UNK] they traveled slowly over centuries , the [MASK] [MASK] [MASK] one of the main migration paths . [UNK] settled in the [UNK] [UNK] and the lower [SEP]
+04/22/2020 11:43:50 - INFO - root -   masked_lm_labels: bridge [UNK] of the . [UNK] settled . [UNK] end of last glacial period the from [UNK] [UNK] [UNK] formed
+04/22/2020 11:43:50 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:43:50 - INFO - root -   masked_lm_positions: 30 37 51 52 56 57 58 69 70 72 73 75 76 77 88 92 93 108 109 110
+04/22/2020 11:43:50 - INFO - root -   is_random_next : False
+04/22/2020 11:43:50 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:50 - INFO - root -   id: 3
+04/22/2020 11:43:50 - INFO - root -   original tokens: [CLS] rip ##arian areas in the river ' s flood ##pl ##ain that provided them with natural herbs and staple foods . [UNK] written records from the tribes and peoples of the pre @ - @ [UNK] period exist because they did not use writing . [UNK] to the writings of explorers , some of the major tribes along the [UNK] [UNK] included the [SEP] areas in the river ' s flood ##pl ##ain that provided them with natural herbs and staple foods . [UNK] written records from the tribes and peoples of the pre @ - @ [UNK] period exist because they did not use writing . [UNK] to the writings of explorers , some of the major tribes along the [UNK] [UNK] included the < [SEP]
+04/22/2020 11:43:50 - INFO - root -   tokens: [CLS] rip ##arian areas in the river ' s flood ##pl ##ain that provided them with natural herbs and staple foods . [UNK] written records from the tribes and [MASK] of [MASK] avail @ - [MASK] [UNK] period exist because they did not use writing . [UNK] to the writings [MASK] explorers [MASK] some of the major tribes along the [UNK] [MASK] [MASK] the [SEP] [MASK] in the river ' s flood ##pl ##ain that provided them with natural [MASK] and [MASK] [MASK] kingdoms [UNK] written records from the tribes and peoples of the pre @ - @ [UNK] period exist because they did not use writing . [MASK] to [MASK] [MASK] [MASK] [MASK] , some of the major tribes along the [UNK] [UNK] [MASK] the < [SEP]
+04/22/2020 11:43:50 - INFO - root -   masked_lm_labels: peoples the pre @ of , [UNK] included areas herbs staple foods . [UNK] the writings of explorers included
+04/22/2020 11:43:50 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:43:50 - INFO - root -   masked_lm_positions: 29 31 32 35 50 52 61 62 65 79 81 82 83 108 110 111 112 113 124
+04/22/2020 11:43:50 - INFO - root -   is_random_next : True
+04/22/2020 11:43:50 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:43:50 - INFO - root -   id: 4
+04/22/2020 11:43:50 - INFO - root -   original tokens: [CLS] summer and winter camps . [UNK] , the center of [UNK] [UNK] wealth and trade lay along the [UNK] [UNK] in the [UNK] region on its great bend south . [UNK] large cluster of walled [UNK] , [UNK] and < un ##k > villages situated on < un ##k > and islands of the river was home to thousands , and later served [SEP] [UNK] [UNK] wealth and trade lay along the [UNK] [UNK] in the [UNK] region on its great bend south . [UNK] large cluster of walled [UNK] , [UNK] and < un ##k > villages situated on < un ##k > and islands of the river was home to thousands , and later served as a market and trading post used by early [SEP]
+04/22/2020 11:43:50 - INFO - root -   tokens: [CLS] summer and winter camps . [UNK] [MASK] ##bron [MASK] of [UNK] [UNK] wealth and trade lay along the [UNK] [UNK] in the [UNK] region on its great [MASK] south . [UNK] large cluster of walled [UNK] , [UNK] and < un [MASK] [MASK] [MASK] situated on < un ##k > and islands of [MASK] river was home to thousands , and later [MASK] [MASK] [MASK] [UNK] wealth and trade lay along the [UNK] [UNK] in the [UNK] region [MASK] its great bend south . [UNK] [MASK] [MASK] of walled [UNK] , [UNK] and < un ##k > villages situated on < un ##k > [MASK] [MASK] [MASK] the river [MASK] home to thousands , and later served as a market and trading post used by early [SEP]
+04/22/2020 11:43:50 - INFO - root -   masked_lm_labels: [UNK] , the center bend ##k > villages the served [SEP] [UNK] on large cluster and islands of was
+04/22/2020 11:43:50 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:43:50 - INFO - root -   masked_lm_positions: 6 7 8 9 28 42 43 44 54 63 64 65 79 86 87 105 106 107 110
+04/22/2020 11:43:50 - INFO - root -   is_random_next : True
+04/22/2020 11:43:51 - INFO - root -   pregenetate electra_file_2.json
+04/22/2020 11:44:35 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:44:35 - INFO - root -   id: 0
+04/22/2020 11:44:35 - INFO - root -   original tokens: [CLS] = = = < un ##k > spiral = = = [SEP] = = = < un ##k > spiral = = = [SEP]
+04/22/2020 11:44:35 - INFO - root -   tokens: [CLS] = = = < un [MASK] > anywhere = = = [SEP] = = [MASK] < un ##k ذ spiral = = = [SEP]
+04/22/2020 11:44:35 - INFO - root -   masked_lm_labels: ##k spiral = >
+04/22/2020 11:44:35 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:44:35 - INFO - root -   masked_lm_positions: 6 8 15 19
+04/22/2020 11:44:35 - INFO - root -   is_random_next : False
+04/22/2020 11:44:35 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:44:35 - INFO - root -   id: 1
+04/22/2020 11:44:35 - INFO - root -   original tokens: [CLS] bee @ - @ eater ( [UNK] < un ##k > ) . [UNK] notes recorded its tendency to scare off prey as hunters were about to shoot . [UNK] was as the chatter ##ing bee @ - @ eater that it was painted between 1792 and 1797 by [UNK] < un ##k > , one of a group known collectively as the [SEP] eater ( [UNK] < un ##k > ) . [UNK] notes recorded its tendency to scare off prey as hunters were about to shoot . [UNK] was as the chatter ##ing bee @ - @ eater that it was painted between 1792 and 1797 by [UNK] < un ##k > , one of a group known collectively as the [UNK] [UNK] [UNK] [SEP]
+04/22/2020 11:44:35 - INFO - root -   tokens: [CLS] bee @ - @ eater ( [UNK] < un ##k > ) . [UNK] notes recorded [MASK] [MASK] [MASK] scare off prey as hunters were about to shoot . [UNK] was as the [MASK] ##ing [MASK] @ - @ eater that it was painted between 1792 and 1797 [MASK] [UNK] < un ##k > , one of a group known collectively as the [SEP] eater ( [UNK] [MASK] [MASK] ##k > ) . [MASK] [MASK] recorded its [MASK] to scare off prey as hunters were about to shoot . [UNK] was as the chatter ##ing bee [MASK] [MASK] [MASK] [MASK] [MASK] it was painted between 1792 and 1797 by [UNK] < un ##k > , one of a group known collectively [MASK] the [UNK] [UNK] [UNK] [SEP]
+04/22/2020 11:44:35 - INFO - root -   masked_lm_labels: ##k its tendency to were chatter bee by ( < un [UNK] notes tendency @ - @ eater that as
+04/22/2020 11:44:35 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:44:35 - INFO - root -   masked_lm_positions: 10 17 18 19 25 34 36 49 66 68 69 74 75 78 97 98 99 100 101 122
+04/22/2020 11:44:35 - INFO - root -   is_random_next : True
+04/22/2020 11:44:35 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:44:35 - INFO - root -   id: 2
+04/22/2020 11:44:35 - INFO - root -   original tokens: [CLS] " black " , and < un ##k > " head " , referring to its black crown . [UNK] common names include [UNK] miner and < un ##k > . [UNK] subspecies are recognised , including subspecies leach ##i found in eastern [UNK] . [UNK] mainland population was split into three subspecies in 1999 by [UNK] < un ##k > — < [SEP] words < un ##k > " black " , and < un ##k > " head " , referring to its black crown . [UNK] common names include [UNK] miner and < un ##k > . [UNK] subspecies are recognised , including subspecies leach ##i found in eastern [UNK] . [UNK] mainland population was split into three subspecies in 1999 by [UNK] [SEP]
+04/22/2020 11:44:35 - INFO - root -   tokens: [CLS] " black " , aqueduct [MASK] [MASK] ##k > " head " , referring to its black crown . [UNK] common names include [UNK] miner and < un ##k > [MASK] [UNK] subspecies are [MASK] [MASK] including subspecies leach porch found in eastern [UNK] . [UNK] mainland [MASK] [MASK] split [MASK] three subspecies in 1999 by [UNK] < un ##k > — < [SEP] words < un ##k > " black " , and < un ##k [MASK] " head " , referring to its black crown . [UNK] common names include [UNK] miner and < un ##k > . [UNK] subspecies are recognised [MASK] including [MASK] leach ##i found in eastern [UNK] . [UNK] mainland population was split into three subspecies in 1999 by [UNK] [SEP]
+04/22/2020 11:44:35 - INFO - root -   masked_lm_labels: and < un " names . recognised , ##i population was split into ##k > , subspecies found split
+04/22/2020 11:44:35 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:44:35 - INFO - root -   masked_lm_positions: 5 6 7 10 22 31 35 36 40 48 49 50 51 60 78 105 107 110 119
+04/22/2020 11:44:35 - INFO - root -   is_random_next : False
+04/22/2020 11:44:35 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:44:35 - INFO - root -   id: 3
+04/22/2020 11:44:35 - INFO - root -   original tokens: [CLS] the most obvious characteristics of the genus is a patch of bare yellow skin behind the eyes , which gives them an odd ' cross @ - @ eyed ' look . [UNK] the genus , the noisy , black @ - @ ear ##ed and yellow @ - @ throat ##ed miners form the subgenus < un ##k > . [UNK] noisy [SEP] the eyes , which gives them an odd ' cross @ - @ eyed ' look . [UNK] the genus , the noisy , black @ - @ ear ##ed and yellow @ - @ throat ##ed miners form the subgenus < un ##k > . [UNK] noisy miner occasionally < un ##k > with the yellow @ - @ throat ##ed [SEP]
+04/22/2020 11:44:35 - INFO - root -   tokens: [CLS] the most [MASK] [MASK] [MASK] the [MASK] feels a patch of bare yellow skin behind the eyes , which gives them an odd ' cross @ - @ eyed ' look . [UNK] the [MASK] [MASK] the noisy , black @ - @ ear ##ed and yellow @ - [MASK] throat [MASK] miners form the subgenus < un ##k > . [UNK] noisy [SEP] the eyes , [MASK] [MASK] [MASK] an odd ' [MASK] [MASK] [MASK] @ eyed ' look . [UNK] [MASK] josie , the noisy , black @ - @ ear ##ed and yellow @ - @ throat ##ed miners form the subgenus < un ##k > . [UNK] noisy miner occasionally < un [MASK] > with the yellow @ - @ throat ##ed [SEP]
+04/22/2020 11:44:35 - INFO - root -   masked_lm_labels: obvious characteristics of genus is genus , @ ##ed which gives them cross @ - the genus yellow ##k
+04/22/2020 11:44:35 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:44:35 - INFO - root -   masked_lm_positions: 3 4 5 7 8 35 36 50 52 68 69 70 74 75 76 83 84 96 117
+04/22/2020 11:44:35 - INFO - root -   is_random_next : False
+04/22/2020 11:44:35 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:44:35 - INFO - root -   id: 4
+04/22/2020 11:44:35 - INFO - root -   original tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 11:44:35 - INFO - root -   tokens: [CLS] = = [UNK] [MASK] [MASK] [SEP] font = [UNK] = = [SEP]
+04/22/2020 11:44:35 - INFO - root -   masked_lm_labels: = = =
+04/22/2020 11:44:35 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 1 1 1 1 1 1
+04/22/2020 11:44:35 - INFO - root -   masked_lm_positions: 4 5 7
+04/22/2020 11:44:35 - INFO - root -   is_random_next : True
+04/22/2020 11:44:36 - INFO - root -   pregenetate electra_file_3.json
+04/22/2020 11:45:19 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:45:19 - INFO - root -   id: 0
+04/22/2020 11:45:19 - INFO - root -   original tokens: [CLS] health problem in humans until the 1960s ( the outbreak of [UNK] disease in [UNK] in the 1920s went widely ignored ) . [UNK] [UNK] discovered that the int ##est ##ines of < un ##k > ( now < un ##k > : [UNK] ) < un ##k > a < un ##k > < un ##k > , a new species of [SEP] as a major public health problem in humans until the 1960s ( the outbreak of [UNK] disease in [UNK] in the 1920s went widely ignored ) . [UNK] [UNK] discovered that the int ##est ##ines of < un ##k > ( now < un ##k > : [UNK] ) < un ##k > a < un ##k > < un ##k > [SEP]
+04/22/2020 11:45:19 - INFO - root -   tokens: [CLS] health problem in humans until the 1960s ( coordinator [MASK] [MASK] [UNK] disease in [UNK] in the [MASK] [MASK] [MASK] ignored ) . [UNK] [UNK] discovered that the [MASK] portable [MASK] of < un ##k > ( now < un ##k > : [UNK] ) < iteration ##k > a < un ##k > < un ##k > , a new [MASK] of [SEP] as a major public health problem in [MASK] until the 1960s ( the outbreak of [UNK] disease in [UNK] [MASK] the 1920s went widely ignored ) . [UNK] [UNK] discovered that [MASK] int ##est ##ines of < un ##k > ( now < un ##k > : [UNK] ) < un imagine [MASK] a < un ##k > < un ##k > [SEP]
+04/22/2020 11:45:19 - INFO - root -   masked_lm_labels: ( the outbreak of 1920s went widely int ##est ##ines un species humans until in the the ##k >
+04/22/2020 11:45:19 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:45:19 - INFO - root -   masked_lm_positions: 8 9 10 11 18 19 20 29 30 31 47 62 72 73 84 85 96 116 117
+04/22/2020 11:45:19 - INFO - root -   is_random_next : False
+04/22/2020 11:45:19 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:45:19 - INFO - root -   id: 1
+04/22/2020 11:45:19 - INFO - root -   original tokens: [CLS] fever , smallpox , and < un ##k > plague in [UNK] de [UNK] and other cities in the beginning of the 20th century . [UNK] was also the first to un ##k ##now ##ingly discover and illustrate the parasitic fungal genus [UNK] , later < un ##k > linked to < un ##k > ( [UNK] pneumonia in [UNK] victims ) . [SEP] ##k > of yellow fever , smallpox , and < un ##k > plague in [UNK] de [UNK] and other cities in the beginning of the 20th century . [UNK] was also the first to un ##k ##now ##ingly discover and illustrate the parasitic fungal genus [UNK] , later < un ##k > linked to < un ##k > ( [UNK] pneumonia [SEP]
+04/22/2020 11:45:19 - INFO - root -   tokens: [CLS] fever , smallpox , and < un ##k > plague in [UNK] [MASK] [MASK] and other cities in the beginning of the 20th century . [UNK] was also the first to un ##k ##now ##ingly [MASK] and illustrate the parasitic fungal genus [UNK] , later < un ##k > royals lea < [MASK] ##k > ( [UNK] [MASK] fueled [MASK] victims ) . [SEP] ##k > of yellow fever [MASK] [MASK] , and < un [MASK] oleg plague in [MASK] [MASK] [UNK] and other cities in the beginning of the 20th century . [UNK] was also the [MASK] to un ##k ##now ##ingly discover and illustrate the parasitic fungal genus [UNK] , later < un ##k [MASK] [MASK] to < un ##k > ( [UNK] pneumonia [SEP]
+04/22/2020 11:45:19 - INFO - root -   masked_lm_labels: de [UNK] discover linked to un ##k pneumonia in [UNK] , smallpox ##k > [UNK] de first > linked
+04/22/2020 11:45:19 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:45:19 - INFO - root -   masked_lm_positions: 13 14 36 50 51 53 54 58 59 60 70 71 76 77 80 81 98 117 118
+04/22/2020 11:45:19 - INFO - root -   is_random_next : False
+04/22/2020 11:45:19 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:45:19 - INFO - root -   id: 2
+04/22/2020 11:45:19 - INFO - root -   original tokens: [CLS] disease is known as mal de [UNK] @ - @ [UNK] , in honor of [UNK] [UNK] , the [UNK] physician who in 1926 began investigating the disease and over the years became the principal researcher of this disease in the country . [UNK] produced the first scientific confirmation of the existence of [UNK] cruz ##i in [UNK] in 1927 , eventually leading [SEP] [UNK] @ - @ [UNK] , in honor of [UNK] [UNK] , the [UNK] physician who in 1926 began investigating the disease and over the years became the principal researcher of this disease in the country . [UNK] produced the first scientific confirmation of the existence of [UNK] cruz ##i in [UNK] in 1927 , eventually leading to support from local and [SEP]
+04/22/2020 11:45:19 - INFO - root -   tokens: [CLS] [MASK] is known as mal de [MASK] @ - @ [UNK] , in honor of [UNK] [UNK] , the [UNK] physician who in 1926 began investigating the disease and over the years became the principal [MASK] [MASK] [MASK] disease in the [MASK] [MASK] [MASK] produced [MASK] first scientific confirmation of the existence [MASK] [UNK] cruz ##i in [UNK] in 1927 , eventually leading [SEP] [UNK] @ bout @ [UNK] , in [MASK] [MASK] [UNK] [UNK] , the [UNK] physician who in 1926 began investigating the disease [MASK] over the years became the principal researcher of this disease in the country . [UNK] produced the first scientific confirmation of the [MASK] export [UNK] cruz ##i in [UNK] in 1927 , [MASK] leading to support from local and [SEP]
+04/22/2020 11:45:19 - INFO - root -   masked_lm_labels: disease is [UNK] researcher of this country . [UNK] the of [UNK] - honor of and existence of eventually
+04/22/2020 11:45:19 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:45:19 - INFO - root -   masked_lm_positions: 1 2 7 36 37 38 42 43 44 46 53 54 67 72 73 87 110 111 120
+04/22/2020 11:45:19 - INFO - root -   is_random_next : True
+04/22/2020 11:45:19 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:45:19 - INFO - root -   id: 3
+04/22/2020 11:45:19 - INFO - root -   original tokens: [CLS] in his diaries of the [UNK] of the < un ##k > as occurring in [UNK] 1835 to the east of the [UNK] near [UNK] . [UNK] was young and generally in good health , though six months previously he had been ill for a month near < un ##k > , but in 1837 , almost a year after he returned to [SEP] the < un ##k > as occurring in [UNK] 1835 to the east of the [UNK] near [UNK] . [UNK] was young and generally in good health , though six months previously he had been ill for a month near < un ##k > , but in 1837 , almost a year after he returned to [UNK] , he began to suffer [SEP]
+04/22/2020 11:45:19 - INFO - root -   tokens: [CLS] [MASK] his diaries of the [UNK] of the < un ##k > [MASK] [MASK] in [UNK] 1835 to the east of the [UNK] near [UNK] . [UNK] was young and generally in good dug [MASK] though six months previously [MASK] [MASK] [MASK] ill for a month near < un ##k > , but in 1837 , almost a year after he returned to [SEP] the < un ##k > [MASK] [MASK] ##uration [MASK] 1835 to the east of the [UNK] near [MASK] . [UNK] was young and generally in good health , though six months previously he had been ill for a month near < [MASK] ##k > , [MASK] in 1837 , almost a year after documentary elton to [MASK] [MASK] he began to suffer [SEP]
+04/22/2020 11:45:19 - INFO - root -   masked_lm_labels: in as occurring health , he had been as occurring in [UNK] [UNK] un but he returned [UNK] ,
+04/22/2020 11:45:19 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:45:19 - INFO - root -   masked_lm_positions: 1 13 14 34 35 40 41 42 70 71 72 73 82 106 110 118 119 121 122
+04/22/2020 11:45:19 - INFO - root -   is_random_next : False
+04/22/2020 11:45:19 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:45:19 - INFO - root -   id: 4
+04/22/2020 11:45:19 - INFO - root -   original tokens: [CLS] vertices and seeks the minimum ( or maximum ) weight of a closure , a set of vertices with no outgoing edges . ( [UNK] problem may be formulated for directed graphs without the assumption of < un ##k > , but with no greater < un ##k > , because in this case it is equivalent to the same problem on the [SEP] ( or maximum ) weight of a closure , a set of vertices with no outgoing edges . ( [UNK] problem may be formulated for directed graphs without the assumption of < un ##k > , but with no greater < un ##k > , because in this case it is equivalent to the same problem on the conde ##ns ##ation of [SEP]
+04/22/2020 11:45:19 - INFO - root -   tokens: [CLS] vertices and seeks the minimum ( or [MASK] ) [MASK] [MASK] [MASK] closure , a set of vertices [MASK] [MASK] outgoing edges . ( [UNK] problem may be formulated for directed graphs without the assumption of < [MASK] [MASK] > , but with no greater [MASK] [MASK] ##k > , because in this [MASK] it is equivalent to the [MASK] problem on the [SEP] ( or maximum [MASK] weight of a closure , a set of vertices with no outgoing edges . ( [UNK] problem may be formulated [MASK] directed graphs without the assumption of < un ##k > , but with no entity [MASK] un ##k > , because in this case it is equivalent to the same problem on the conde ##ns ##ation of [SEP]
+04/22/2020 11:45:19 - INFO - root -   masked_lm_labels: maximum weight of a with no un ##k < un case same problem ) weight for directed greater < un
+04/22/2020 11:45:19 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:45:19 - INFO - root -   masked_lm_positions: 8 10 11 12 19 20 38 39 46 47 54 60 61 68 69 89 90 104 105 106
+04/22/2020 11:45:19 - INFO - root -   is_random_next : False
+04/22/2020 11:45:20 - INFO - root -   pregenetate electra_file_4.json
+04/22/2020 11:46:03 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:03 - INFO - root -   id: 0
+04/22/2020 11:46:03 - INFO - root -   original tokens: [CLS] first aired on the [UNK] network in the [UNK] [UNK] on [UNK] 2 , 1999 . [UNK] the episode , [UNK] . [UNK] is jealous of < un ##k > owner [UNK] [UNK] , who is beloved by the people of [UNK] . [UNK] order to win the people ' s love , [UNK] < un ##k > the help of [UNK] [UNK] [SEP] ##k > . [UNK] idea for the episode was pitched by the [UNK] writing staff , who wanted to make an episode in which [UNK] . [UNK] becomes a " < un ##k > " , a millionaire who goes on thrilling adventures . [UNK] it would originally be green , a mistake in the overseas animation led to the [UNK] [UNK] [SEP]
+04/22/2020 11:46:03 - INFO - root -   tokens: [CLS] first aired on the [UNK] network in the [UNK] [MASK] [MASK] [UNK] 2 , 1999 . [UNK] the episode , [UNK] . [UNK] is jealous of < [MASK] [MASK] > owner [UNK] [UNK] , who is beloved by the people of [UNK] . [UNK] order to win the people ' s love , [UNK] < un ##k > the help of [UNK] [UNK] [SEP] ##k [MASK] . [UNK] [MASK] [MASK] [MASK] [MASK] [MASK] pitched by [MASK] [UNK] writing staff , who wanted to make an episode in which [UNK] . [UNK] [MASK] a [MASK] < un ##k > " [MASK] a millionaire who goes on [MASK] adventures . [UNK] it would originally [MASK] [MASK] [MASK] a mistake in the overseas animation led to the [UNK] [UNK] [SEP]
+04/22/2020 11:46:03 - INFO - root -   masked_lm_labels: [UNK] on un ##k > idea for the episode was pitched the becomes " , thrilling be green ,
+04/22/2020 11:46:03 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:46:03 - INFO - root -   masked_lm_positions: 10 11 28 29 66 69 70 71 72 73 74 76 92 94 100 106 113 114 115
+04/22/2020 11:46:03 - INFO - root -   is_random_next : False
+04/22/2020 11:46:03 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:03 - INFO - root -   id: 1
+04/22/2020 11:46:03 - INFO - root -   original tokens: [CLS] [UNK] its original broadcast , " [UNK] [UNK] ' t [UNK] [UNK] [UNK] " was seen by approximately 7 @ . @ 26 million viewers , and finished in 43rd place in the ratings the week it aired . [UNK] the release of [UNK] [UNK] : [UNK] [UNK] [UNK] [UNK] , the episode received mixed reviews from critics . [SEP] [UNK] its original broadcast , " [UNK] [UNK] ' t [UNK] [UNK] [UNK] " was seen by approximately 7 @ . @ 26 million viewers , and finished in 43rd place in the ratings the week it aired . [UNK] the release of [UNK] [UNK] : [UNK] [UNK] [UNK] [UNK] , the episode received mixed reviews from critics . [SEP]
+04/22/2020 11:46:03 - INFO - root -   tokens: [CLS] [UNK] its original broadcast , " [UNK] [UNK] ' t [UNK] [UNK] [UNK] " was [MASK] [MASK] approximately 7 @ . @ 26 million viewers , and finished in 43rd place in the ratings the week [MASK] [MASK] . [UNK] the release of [UNK] [UNK] : [UNK] [UNK] [UNK] [UNK] , the episode received [MASK] reviews [MASK] critics . [SEP] [UNK] its [MASK] [MASK] [MASK] " [UNK] [UNK] ' [MASK] [MASK] [UNK] [UNK] " was seen by approximately stamps @ . @ 26 million viewers , [MASK] [MASK] in 43rd place in the ratings the week [MASK] aired . [UNK] the release of [UNK] [UNK] : [UNK] [UNK] [MASK] [UNK] [MASK] the episode received mixed reviews from critics . [SEP]
+04/22/2020 11:46:03 - INFO - root -   masked_lm_labels: seen by it aired mixed from critics original broadcast , t [UNK] 7 and finished it [UNK] ,
+04/22/2020 11:46:03 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:46:03 - INFO - root -   masked_lm_positions: 16 17 37 38 55 57 58 63 64 65 70 71 79 87 88 97 109 111
+04/22/2020 11:46:03 - INFO - root -   is_random_next : True
+04/22/2020 11:46:03 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:03 - INFO - root -   id: 2
+04/22/2020 11:46:03 - INFO - root -   original tokens: [CLS] = = = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 11:46:03 - INFO - root -   tokens: [CLS] = = [MASK] ##і = = = [SEP] = lucie = [UNK] [MASK] = = [SEP]
+04/22/2020 11:46:03 - INFO - root -   masked_lm_labels: = = [UNK] = =
+04/22/2020 11:46:03 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 11:46:03 - INFO - root -   masked_lm_positions: 2 3 4 10 13
+04/22/2020 11:46:03 - INFO - root -   is_random_next : False
+04/22/2020 11:46:03 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:03 - INFO - root -   id: 3
+04/22/2020 11:46:03 - INFO - root -   original tokens: [CLS] = = = < un ##k > = = = [SEP] = = = < un ##k > = = = [SEP]
+04/22/2020 11:46:03 - INFO - root -   tokens: [CLS] = = = < un ##k > = = = [SEP] = = [MASK] < [MASK] ##k > = = = [SEP]
+04/22/2020 11:46:03 - INFO - root -   masked_lm_labels: = < un
+04/22/2020 11:46:03 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:46:03 - INFO - root -   masked_lm_positions: 14 15 16
+04/22/2020 11:46:03 - INFO - root -   is_random_next : True
+04/22/2020 11:46:03 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:03 - INFO - root -   id: 4
+04/22/2020 11:46:03 - INFO - root -   original tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 11:46:03 - INFO - root -   tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 11:46:03 - INFO - root -   masked_lm_labels: [UNK] =
+04/22/2020 11:46:03 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 1 1 1 1 1 1
+04/22/2020 11:46:03 - INFO - root -   masked_lm_positions: 3 4
+04/22/2020 11:46:03 - INFO - root -   is_random_next : True
+04/22/2020 11:46:04 - INFO - root -   pregenetate electra_file_5.json
+04/22/2020 11:46:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:47 - INFO - root -   id: 0
+04/22/2020 11:46:47 - INFO - root -   original tokens: [CLS] worked at [UNK] [UNK] [UNK] @ - @ affiliate ( [UNK] ) < un ##k > until 1981 when he was asked to submit his resignation after a dispute about the requirements of objective focus in his presentation of news . [UNK] a radio journalist he earned the moniker " the voice of the < un ##k > " and was renowned for [SEP] his old high school after his departure from the [UNK] , [UNK] @ - @ [UNK] was suspended for distributing literature calling for " black revolutionary student power " . [UNK] also led unsuccessful protests to change the school name to [UNK] [UNK] [UNK] . [UNK] attaining his < un ##k > , he studied briefly at [UNK] [UNK] in rural [UNK] [SEP]
+04/22/2020 11:46:47 - INFO - root -   tokens: [CLS] worked at [UNK] [UNK] [UNK] @ - @ affiliate ( [UNK] ) [MASK] un ##k > until 1981 when he was asked to submit his resignation after a dispute about the requirements [MASK] objective focus in his [MASK] [MASK] news . [UNK] a radio [MASK] [MASK] earned the moniker " the voice [MASK] consumed < un ##k > " and was renowned for [SEP] his old high school after his departure from the [UNK] , [UNK] @ - @ [UNK] was suspended [MASK] distributing literature calling [MASK] " black revolutionary student power " . [UNK] also led unsuccessful protests to change the school nevada [MASK] [MASK] [MASK] [MASK] . [UNK] [MASK] his < un ##k > , he studied briefly at [MASK] [UNK] in rural [UNK] [SEP]
+04/22/2020 11:46:47 - INFO - root -   masked_lm_labels: < submit of presentation of journalist he of the @ for for name to [UNK] [UNK] [UNK] attaining [UNK]
+04/22/2020 11:46:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:46:47 - INFO - root -   masked_lm_positions: 13 24 33 38 39 45 46 53 54 77 83 87 104 105 106 107 108 111 122
+04/22/2020 11:46:47 - INFO - root -   is_random_next : True
+04/22/2020 11:46:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:47 - INFO - root -   id: 1
+04/22/2020 11:46:47 - INFO - root -   original tokens: [CLS] ' s murder , [UNK] @ - @ [UNK] was working as a < un ##k > driver in [UNK] two nights a week to supplement his income . [UNK] had been working part @ - @ time as a reporter for < un ##k > , then an [UNK] @ - @ [UNK] @ - @ oriented and minority @ - @ [SEP] murder , [UNK] @ - @ [UNK] was working as a < un ##k > driver in [UNK] two nights a week to supplement his income . [UNK] had been working part @ - @ time as a reporter for < un ##k > , then an [UNK] @ - @ [UNK] @ - @ oriented and minority @ - @ owned [SEP]
+04/22/2020 11:46:47 - INFO - root -   tokens: [CLS] ' s murder , [UNK] @ - [MASK] copied was working as a < un ##k > driver in [UNK] [MASK] liszt ranging week to supplement his income . [UNK] had been working part @ - @ time as a reporter for < un ##k > , then an [UNK] @ [MASK] @ [UNK] @ - @ oriented and minority @ - @ [SEP] murder , [UNK] [MASK] [MASK] @ [UNK] was working as a conducts [MASK] ##k [MASK] [MASK] in [UNK] [MASK] [MASK] a week to supplement his income . [UNK] had been working part @ - @ time as a reporter [MASK] < un [MASK] > , then [MASK] [UNK] @ [MASK] @ [UNK] @ - @ oriented and minority @ - @ owned [SEP]
+04/22/2020 11:46:47 - INFO - root -   masked_lm_labels: - @ [UNK] two nights a - @ - < un > driver two nights for ##k an -
+04/22/2020 11:46:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:46:47 - INFO - root -   masked_lm_positions: 7 8 9 21 22 23 52 68 69 76 77 79 80 83 84 104 107 111 114
+04/22/2020 11:46:47 - INFO - root -   is_random_next : True
+04/22/2020 11:46:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:47 - INFO - root -   id: 2
+04/22/2020 11:46:47 - INFO - root -   original tokens: [CLS] = = = 1905 – 09 = = = [SEP] = = = 1905 – 09 = = = [SEP]
+04/22/2020 11:46:47 - INFO - root -   tokens: [CLS] = = = [MASK] [MASK] [MASK] opponent = = [SEP] = = = 1905 – 09 = = = [SEP]
+04/22/2020 11:46:47 - INFO - root -   masked_lm_labels: 1905 – 09 =
+04/22/2020 11:46:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:46:47 - INFO - root -   masked_lm_positions: 4 5 6 7
+04/22/2020 11:46:47 - INFO - root -   is_random_next : True
+04/22/2020 11:46:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:47 - INFO - root -   id: 3
+04/22/2020 11:46:47 - INFO - root -   original tokens: [CLS] [UNK] [UNK] . [UNK] line centred around a natural ravine known as " [UNK] [UNK] " , with an average depth of 200 ft ( 61 m ) . [UNK] [UNK] ' initial plan to take the position ( as well as achieve a foot ##hold on the roads toward [UNK] ) consisted of a frontal assault by the 2nd [UNK] [UNK] [UNK] [SEP] natural ravine known as " [UNK] [UNK] " , with an average depth of 200 ft ( 61 m ) . [UNK] [UNK] ' initial plan to take the position ( as well as achieve a foot ##hold on the roads toward [UNK] ) consisted of a frontal assault by the 2nd [UNK] [UNK] [UNK] , which would seize < un ##k [SEP]
+04/22/2020 11:46:47 - INFO - root -   tokens: [CLS] [UNK] [UNK] . [UNK] line centred around a natural ravine known as [MASK] [UNK] [UNK] " , with an average depth of 200 ft ( 61 m ) . [MASK] [MASK] [MASK] initial plan to take the position ( as well as achieve a grill ##hold on the roads ##buch [MASK] [MASK] consisted of a frontal assault by the 2nd [UNK] [UNK] [UNK] [SEP] natural ravine known as " [UNK] [UNK] " , with an average depth of 200 ft ( 61 m ) . [UNK] [UNK] ' initial plan to [MASK] [MASK] [MASK] ( as well as achieve a [MASK] [MASK] [MASK] the roads toward [UNK] [MASK] [MASK] of a frontal assault by the 2nd [UNK] [UNK] [MASK] , [MASK] would seize < un ##k [SEP]
+04/22/2020 11:46:47 - INFO - root -   masked_lm_labels: " [UNK] [UNK] ' achieve foot toward [UNK] ) take the position foot ##hold on ) consisted [UNK] which
+04/22/2020 11:46:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:46:47 - INFO - root -   masked_lm_positions: 13 30 31 32 43 45 50 51 52 92 93 94 101 102 103 108 109 119 121
+04/22/2020 11:46:47 - INFO - root -   is_random_next : False
+04/22/2020 11:46:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:46:47 - INFO - root -   id: 4
+04/22/2020 11:46:47 - INFO - root -   original tokens: [CLS] [UNK] , they were subject to counterattack ##s by the 200 ##th [UNK] [UNK] approximately 10 : 30 . [UNK] 14 : 00 , the regiment had called off its attacks and had taken heavy casualties . [UNK] the west , [UNK] [UNK] ' s [UNK] [UNK] [UNK] fare ##d little better , with [UNK] [UNK] taking heavy casualties in their assault . [SEP] attempts to < un ##k > [UNK] positions in the ravine were unsuccessful . [UNK] 11 [UNK] , the three battalions made another attempt , with the [UNK] [UNK] [UNK] suffering heavy casualties in their attempts to take [UNK] positions in the sector . [UNK] a badly < un ##k > [UNK] [UNK] was able to gain a foot ##hold on the [SEP]
+04/22/2020 11:46:47 - INFO - root -   tokens: [CLS] [UNK] nikola they were subject to counterattack ##s by the 200 ##th [UNK] [UNK] approximately [MASK] [MASK] 30 ##logue [UNK] 14 : 00 , the regiment had called companion its attacks [MASK] had taken [MASK] casualties . [UNK] the west , [UNK] [UNK] [MASK] [MASK] [UNK] [UNK] [UNK] [MASK] [MASK] [MASK] better , with [UNK] [UNK] taking heavy [MASK] in their assault . [SEP] attempts to < un ##k > [UNK] positions in the ravine were unsuccessful . [UNK] 11 [UNK] , the three battalions made another attempt performer with the [UNK] [MASK] [MASK] suffering heavy casualties in their attempts to take [UNK] positions in the sector . [UNK] a badly < un ##k > [MASK] [MASK] was able [MASK] gain a foot ##hold on the [SEP]
+04/22/2020 11:46:47 - INFO - root -   masked_lm_labels: , 10 : . off and heavy ' s fare ##d little casualties , [UNK] [UNK] [UNK] [UNK] to
+04/22/2020 11:46:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:46:47 - INFO - root -   masked_lm_positions: 2 16 17 19 29 32 35 44 45 49 50 51 59 89 93 94 116 117 120
+04/22/2020 11:46:47 - INFO - root -   is_random_next : True
+04/22/2020 11:46:48 - INFO - root -   pregenetate electra_file_6.json
+04/22/2020 11:47:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:47:31 - INFO - root -   id: 0
+04/22/2020 11:47:31 - INFO - root -   original tokens: [CLS] and rear defence wall were finished in 1885 . [UNK] guns had already been purchased specially , plans for the third fort at [UNK] were not proceeded with . [UNK] [UNK] was experiencing a depression in 1886 and that coupled with a report by [UNK] [UNK] < un ##k > [UNK] sc ##ut ##tled plans for the third coastal fort . [UNK] early [SEP] finished in 1885 . [UNK] guns had already been purchased specially , plans for the third fort at [UNK] were not proceeded with . [UNK] [UNK] was experiencing a depression in 1886 and that coupled with a report by [UNK] [UNK] < un ##k > [UNK] sc ##ut ##tled plans for the third coastal fort . [UNK] early as 1888 the emphasis [SEP]
+04/22/2020 11:47:31 - INFO - root -   tokens: [CLS] and rear defence wall were finished in angles [MASK] [UNK] [MASK] had already been purchased specially , plans for the third fort at [UNK] [MASK] not [MASK] with . [UNK] [UNK] [MASK] experiencing a depression in 1886 and that coupled with a report by [UNK] [UNK] < un ##k > [UNK] sc ##ut ##tled plans for the third coastal fort . [MASK] [MASK] [MASK] finished in 1885 . [UNK] guns had already been purchased specially , plans for the third [MASK] [MASK] [UNK] were not proceeded with . [UNK] [UNK] was experiencing a depression in [MASK] [MASK] [MASK] coupled [MASK] [MASK] report by [UNK] [UNK] < un ##k > [UNK] sc ##ut ##tled plans [MASK] the third coastal fort [MASK] [UNK] early as 1888 the emphasis [SEP]
+04/22/2020 11:47:31 - INFO - root -   masked_lm_labels: 1885 . guns were proceeded was [UNK] early [SEP] fort at 1886 and that with a for the .
+04/22/2020 11:47:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:47:31 - INFO - root -   masked_lm_positions: 8 9 11 25 27 32 62 63 64 81 82 96 97 98 100 101 115 116 120
+04/22/2020 11:47:31 - INFO - root -   is_random_next : False
+04/22/2020 11:47:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:47:31 - INFO - root -   id: 1
+04/22/2020 11:47:31 - INFO - root -   original tokens: [CLS] equipped in 1889 with two 6 inch bree ##ch @ - @ loading disappearing guns which < un ##k > [UNK] ' s armament . [UNK] decline was also linked to changes in [UNK] [UNK] ' s maritime facilities and the con ##se ##quent northward movement of anchored and berth ##ed vessels . [UNK] the 1880s the [UNK] [UNK] was deepened enabling large [SEP] @ - @ pounder armament , though without result . [UNK] 1901 the fort was manned on a caretaker basis only and no permanent forces were stationed . [UNK] [UNK] [UNK] assumed responsibility for [UNK] [UNK] defence in 1903 and took over the fort . [UNK] [UNK] by then had no significant defence role , the state received £ 14 @ , [SEP]
+04/22/2020 11:47:31 - INFO - root -   tokens: [CLS] equipped in 1889 with two 6 inch bree ##ch [MASK] - [MASK] loading disappearing guns which < un ##k > [UNK] ' s armament . [UNK] decline was also linked to changes in [UNK] [UNK] ' s maritime [MASK] and the con ##se ##quent northward [MASK] [MASK] [MASK] and berth ##ed vessels . [UNK] the 1880s the [UNK] [UNK] was deepened enabling large [SEP] @ - @ pounder armament [MASK] though without result . [MASK] [MASK] the [MASK] was manned on a caretaker basis only and no permanent forces were stationed . [UNK] [UNK] [UNK] assumed responsibility for [UNK] [UNK] defence in [MASK] and took over the fort . [UNK] [UNK] [MASK] [MASK] [MASK] no significant defence role , the state received £ 14 @ , [SEP]
+04/22/2020 11:47:31 - INFO - root -   masked_lm_labels: @ - @ [UNK] facilities con movement of anchored , [UNK] 1901 fort 1903 fort [UNK] by then had
+04/22/2020 11:47:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:47:31 - INFO - root -   masked_lm_positions: 10 11 12 21 39 42 46 47 48 70 75 76 78 103 108 111 112 113 114
+04/22/2020 11:47:31 - INFO - root -   is_random_next : False
+04/22/2020 11:47:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:47:31 - INFO - root -   id: 2
+04/22/2020 11:47:31 - INFO - root -   original tokens: [CLS] [UNK] [UNK] of the [UNK] ( 2 ) : [UNK] [UNK] : 1987 , 1988 [SEP] [UNK] [UNK] : 1985 [UNK] of the [UNK] : [UNK] / [UNK] 2011 , [UNK] 2011 , [UNK] 2013 < un ##k > [UNK] of the [UNK] : 2012 – 13 [SEP]
+04/22/2020 11:47:31 - INFO - root -   tokens: [CLS] [MASK] determines [MASK] the [UNK] ( 2 ) : [UNK] [UNK] : 1987 , 1988 [SEP] [UNK] [UNK] : 1985 [UNK] of [MASK] [MASK] [MASK] [UNK] / [UNK] 2011 , [UNK] 2011 , [UNK] 2013 < un [MASK] [MASK] [UNK] of the [UNK] : 2012 – 13 [SEP]
+04/22/2020 11:47:31 - INFO - root -   masked_lm_labels: [UNK] [UNK] of the [UNK] : ##k > [UNK]
+04/22/2020 11:47:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:47:31 - INFO - root -   masked_lm_positions: 1 2 3 23 24 25 38 39 40
+04/22/2020 11:47:31 - INFO - root -   is_random_next : False
+04/22/2020 11:47:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:47:31 - INFO - root -   id: 3
+04/22/2020 11:47:31 - INFO - root -   original tokens: [CLS] = [UNK] [UNK] = [SEP] = [UNK] [UNK] = [SEP]
+04/22/2020 11:47:31 - INFO - root -   tokens: [CLS] = [UNK] [UNK] [MASK] [MASK] = [UNK] [UNK] = [SEP]
+04/22/2020 11:47:31 - INFO - root -   masked_lm_labels: = [SEP]
+04/22/2020 11:47:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 1 1 1 1 1
+04/22/2020 11:47:31 - INFO - root -   masked_lm_positions: 4 5
+04/22/2020 11:47:31 - INFO - root -   is_random_next : True
+04/22/2020 11:47:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:47:31 - INFO - root -   id: 4
+04/22/2020 11:47:31 - INFO - root -   original tokens: [CLS] = [UNK] ( [UNK] [UNK] ) = [SEP] = [UNK] ( [UNK] [UNK] ) = [SEP]
+04/22/2020 11:47:31 - INFO - root -   tokens: [CLS] = [UNK] [MASK] [UNK] [UNK] [MASK] [MASK] [SEP] = [UNK] ( [UNK] [MASK] ) = [SEP]
+04/22/2020 11:47:31 - INFO - root -   masked_lm_labels: ( ) = [UNK]
+04/22/2020 11:47:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 11:47:31 - INFO - root -   masked_lm_positions: 3 6 7 13
+04/22/2020 11:47:31 - INFO - root -   is_random_next : True
+04/22/2020 11:47:32 - INFO - root -   pregenetate electra_file_7.json
+04/22/2020 11:48:16 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:48:16 - INFO - root -   id: 0
+04/22/2020 11:48:16 - INFO - root -   original tokens: [CLS] = = [UNK] reception = = [SEP] = = [UNK] reception = = [SEP]
+04/22/2020 11:48:16 - INFO - root -   tokens: [CLS] = = [UNK] [MASK] = = [SEP] [MASK] = [UNK] reception = = [SEP]
+04/22/2020 11:48:16 - INFO - root -   masked_lm_labels: reception =
+04/22/2020 11:48:16 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+04/22/2020 11:48:16 - INFO - root -   masked_lm_positions: 4 8
+04/22/2020 11:48:16 - INFO - root -   is_random_next : False
+04/22/2020 11:48:16 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:48:16 - INFO - root -   id: 1
+04/22/2020 11:48:16 - INFO - root -   original tokens: [CLS] = = = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 11:48:16 - INFO - root -   tokens: [CLS] [MASK] [MASK] = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 11:48:16 - INFO - root -   masked_lm_labels: = = [UNK]
+04/22/2020 11:48:16 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 11:48:16 - INFO - root -   masked_lm_positions: 1 2 4
+04/22/2020 11:48:16 - INFO - root -   is_random_next : True
+04/22/2020 11:48:16 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:48:16 - INFO - root -   id: 2
+04/22/2020 11:48:16 - INFO - root -   original tokens: [CLS] = = [UNK] video = = [SEP] = = [UNK] video = = [SEP]
+04/22/2020 11:48:16 - INFO - root -   tokens: [CLS] [MASK] [MASK] [MASK] video = = [SEP] = = [UNK] video = = [SEP]
+04/22/2020 11:48:16 - INFO - root -   masked_lm_labels: = = [UNK]
+04/22/2020 11:48:16 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+04/22/2020 11:48:16 - INFO - root -   masked_lm_positions: 1 2 3
+04/22/2020 11:48:16 - INFO - root -   is_random_next : True
+04/22/2020 11:48:16 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:48:16 - INFO - root -   id: 3
+04/22/2020 11:48:16 - INFO - root -   original tokens: [CLS] [UNK] sat out his true freshman year during the 2005 season on reds ##hir ##t status . [UNK] 2006 , he served as the third @ - @ team quarterback behind starter [UNK] < un ##k > and reserve [UNK] [UNK] , but [UNK] saw no playing time during that season . [SEP] [UNK] sat out his true freshman year during the 2005 season on reds ##hir ##t status . [UNK] 2006 , he served as the third @ - @ team quarterback behind starter [UNK] < un ##k > and reserve [UNK] [UNK] , but [UNK] saw no playing time during that season . [SEP]
+04/22/2020 11:48:16 - INFO - root -   tokens: [CLS] [UNK] sat out his true freshman year during [MASK] 2005 season on [MASK] [MASK] ##t status . [UNK] 2006 , he served as the third @ - @ team quarterback behind starter [UNK] < un ##k > and reserve [UNK] [UNK] , but [UNK] saw no playing time [MASK] that season . [SEP] [MASK] sat notable his true freshman year during the 2005 season on [MASK] [MASK] ##t status . [UNK] [MASK] [MASK] [MASK] served as the third @ [MASK] syrian team quarterback behind [MASK] [UNK] < un ##k > and reserve [UNK] [UNK] , but [UNK] saw no playing time [MASK] that season . [SEP]
+04/22/2020 11:48:16 - INFO - root -   masked_lm_labels: the reds ##hir during [UNK] sat out reds ##hir 2006 , he - @ starter during
+04/22/2020 11:48:16 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:48:16 - INFO - root -   masked_lm_positions: 9 13 14 49 54 55 56 66 67 72 73 74 80 81 85 102
+04/22/2020 11:48:16 - INFO - root -   is_random_next : False
+04/22/2020 11:48:16 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:48:16 - INFO - root -   id: 4
+04/22/2020 11:48:16 - INFO - root -   original tokens: [CLS] ##k > delight . " [UNK] [UNK] of [UNK] [UNK] [UNK] [UNK] wrote that " the music and the lyrics are mainly aimed at dance floors , and yet this album keeps reminding listeners that a dance floor is one of the most complicated places on earth . " [UNK] its review , [UNK] wrote " [UNK] ' s on this final stretch [SEP] hip @ - @ hop @ - @ < un ##k > delight . " [UNK] [UNK] of [UNK] [UNK] [UNK] [UNK] wrote that " the music and the lyrics are mainly aimed at dance floors , and yet this album keeps reminding listeners that a dance floor is one of the most complicated places on earth . " [UNK] its review [SEP]
+04/22/2020 11:48:16 - INFO - root -   tokens: [CLS] ##k > [MASK] [MASK] [MASK] [MASK] [UNK] of [MASK] [UNK] [UNK] [MASK] [MASK] [MASK] [MASK] consecutive [MASK] and the lyrics are mainly aimed at dance wind , and yet this album keeps reminding listeners that a dance floor is one of the most [MASK] places on [MASK] . " [UNK] [MASK] review , [UNK] wrote " [UNK] ' s on this final stretch [SEP] [MASK] @ - @ hop @ - @ < un ##k > delight . " [UNK] [UNK] of [UNK] [UNK] [UNK] [UNK] wrote that " the music and the lyrics are mainly aimed at dance floors , and yet this album keeps reminding listeners that [MASK] dance floor is one of the [MASK] [MASK] places on earth . " [UNK] its review [SEP]
+04/22/2020 11:48:16 - INFO - root -   masked_lm_labels: delight . " [UNK] [UNK] [UNK] wrote that " the music floors reminding complicated earth its hip [UNK] a most complicated
+04/22/2020 11:48:16 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:48:16 - INFO - root -   masked_lm_positions: 3 4 5 6 9 12 13 14 15 16 17 26 33 44 47 51 65 86 110 117 118
+04/22/2020 11:48:16 - INFO - root -   is_random_next : True
+04/22/2020 11:48:17 - INFO - root -   pregenetate electra_file_8.json
+04/22/2020 11:49:01 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:01 - INFO - root -   id: 0
+04/22/2020 11:49:01 - INFO - root -   original tokens: [CLS] = = [UNK] impact = = [SEP] = = [UNK] impact = = [SEP]
+04/22/2020 11:49:01 - INFO - root -   tokens: [CLS] = [MASK] [MASK] impact = = [SEP] = = [UNK] impact = = [SEP]
+04/22/2020 11:49:01 - INFO - root -   masked_lm_labels: = [UNK]
+04/22/2020 11:49:01 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+04/22/2020 11:49:01 - INFO - root -   masked_lm_positions: 2 3
+04/22/2020 11:49:01 - INFO - root -   is_random_next : True
+04/22/2020 11:49:01 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:01 - INFO - root -   id: 1
+04/22/2020 11:49:01 - INFO - root -   original tokens: [CLS] = = = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 11:49:01 - INFO - root -   tokens: [CLS] = [MASK] = [UNK] = = = [SEP] = [MASK] = [UNK] = = = [SEP]
+04/22/2020 11:49:01 - INFO - root -   masked_lm_labels: = = =
+04/22/2020 11:49:01 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 11:49:01 - INFO - root -   masked_lm_positions: 2 10 11
+04/22/2020 11:49:01 - INFO - root -   is_random_next : False
+04/22/2020 11:49:01 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:01 - INFO - root -   id: 2
+04/22/2020 11:49:01 - INFO - root -   original tokens: [CLS] = = = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 11:49:01 - INFO - root -   tokens: [CLS] = = = [UNK] = = [MASK] [SEP] = = = [MASK] = = = [SEP]
+04/22/2020 11:49:01 - INFO - root -   masked_lm_labels: = = [UNK]
+04/22/2020 11:49:01 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 11:49:01 - INFO - root -   masked_lm_positions: 2 7 12
+04/22/2020 11:49:01 - INFO - root -   is_random_next : False
+04/22/2020 11:49:01 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:01 - INFO - root -   id: 3
+04/22/2020 11:49:01 - INFO - root -   original tokens: [CLS] = [UNK] ( song ) = [SEP] = [UNK] ( song ) = [SEP]
+04/22/2020 11:49:01 - INFO - root -   tokens: [CLS] [MASK] [MASK] ( song ) = [SEP] = [UNK] ( song ) = [SEP]
+04/22/2020 11:49:01 - INFO - root -   masked_lm_labels: = [UNK]
+04/22/2020 11:49:01 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+04/22/2020 11:49:01 - INFO - root -   masked_lm_positions: 1 2
+04/22/2020 11:49:01 - INFO - root -   is_random_next : False
+04/22/2020 11:49:01 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:01 - INFO - root -   id: 4
+04/22/2020 11:49:01 - INFO - root -   original tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 11:49:01 - INFO - root -   tokens: [CLS] = = [MASK] [MASK] = [SEP] = = [UNK] = = [SEP]
+04/22/2020 11:49:01 - INFO - root -   masked_lm_labels: [UNK] =
+04/22/2020 11:49:01 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 1 1 1 1 1 1
+04/22/2020 11:49:01 - INFO - root -   masked_lm_positions: 3 4
+04/22/2020 11:49:01 - INFO - root -   is_random_next : False
+04/22/2020 11:49:02 - INFO - root -   pregenetate electra_file_9.json
+04/22/2020 11:49:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:46 - INFO - root -   id: 0
+04/22/2020 11:49:46 - INFO - root -   original tokens: [CLS] feathers of the hind @ - @ neck and back , giving birds from [UNK] the appearance of having more distinctive sc ##all ##oping than other populations . [UNK] length generally increases with latitude and [UNK] . < un ##k > leach ##i has < un ##k > shorter wings than the nominate race , although no significant difference in wing length was [SEP] of the hind @ - @ neck and back , giving birds from [UNK] the appearance of having more distinctive sc ##all ##oping than other populations . [UNK] length generally increases with latitude and [UNK] . < un ##k > leach ##i has < un ##k > shorter wings than the nominate race , although no significant difference in wing length was [SEP]
+04/22/2020 11:49:46 - INFO - root -   tokens: [CLS] feathers of the hind @ - @ neck and back , giving birds from [UNK] the appearance of having [MASK] [MASK] [MASK] ##all ##oping than other populations . [UNK] length generally increases with latitude and [UNK] . [MASK] [MASK] ##k > leach ##i has [MASK] un ##k > shorter [MASK] [MASK] [MASK] nominate race , although no significant difference in wing [MASK] was [SEP] of the [MASK] [MASK] [MASK] [MASK] neck [MASK] back , giving birds from [UNK] the appearance of [MASK] more distinctive sc ##all ##oping than other populations . [UNK] length generally increases with latitude and [UNK] . < un ##k > leach ##i has < un ##k [MASK] shorter wings than the nominate race , although no significant difference in wing length was [SEP]
+04/22/2020 11:49:46 - INFO - root -   masked_lm_labels: more distinctive sc generally < un < wings than the wing length hind @ - @ and having more >
+04/22/2020 11:49:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:49:46 - INFO - root -   masked_lm_positions: 20 21 22 31 38 39 45 50 51 52 61 62 67 68 69 70 72 82 83 111
+04/22/2020 11:49:46 - INFO - root -   is_random_next : True
+04/22/2020 11:49:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:46 - INFO - root -   id: 1
+04/22/2020 11:49:46 - INFO - root -   original tokens: [CLS] subspecies < un ##k > has a shorter tail , paler crown , larger yellow skin patch , and paler upper parts without the yellow @ - @ olive of the nominate race ; and < un ##k > , found in western [UNK] [UNK] [UNK] , is smaller than the nominate race with a black crown , and darker more mo ##ttle [SEP] subspecies < un ##k > has a shorter tail , paler crown , larger yellow skin patch , and paler upper parts without the yellow @ - @ olive of the nominate race ; and < un ##k > , found in western [UNK] [UNK] [UNK] , is smaller than the nominate race with a black crown , and darker more mo [SEP]
+04/22/2020 11:49:46 - INFO - root -   tokens: [CLS] subspecies < un ##k [MASK] [MASK] [MASK] shorter tail , paler crown , larger yellow [MASK] patch , and paler upper [MASK] without the yellow @ - @ olive of the nominate race ; and < un ##k > , found in western [UNK] [UNK] [UNK] , is smaller than the nominate race with a black crown , [MASK] darker more mo ##ttle [SEP] subspecies < un ##k > has a [MASK] tail , paler crown , larger yellow [MASK] [MASK] , and paler upper parts without the yellow @ - [MASK] olive of the [MASK] race ; and < un ##k > ##va [MASK] in western [UNK] [UNK] [MASK] , is smaller [MASK] [MASK] nominate race with a black [MASK] [MASK] and darker more mo [SEP]
+04/22/2020 11:49:46 - INFO - root -   masked_lm_labels: > has a skin parts , and shorter skin patch , @ nominate , found [UNK] than the crown ,
+04/22/2020 11:49:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:49:46 - INFO - root -   masked_lm_positions: 5 6 7 16 22 58 59 72 80 81 82 92 96 104 105 110 114 115 121 122
+04/22/2020 11:49:46 - INFO - root -   is_random_next : False
+04/22/2020 11:49:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:46 - INFO - root -   id: 2
+04/22/2020 11:49:46 - INFO - root -   original tokens: [CLS] ##k > energy it ra ##dia ##tes per unit of time . [UNK] has units of power . [UNK] lu ##min ##osity of a star is determined by its radius and surface temperature . [UNK] stars do not ra ##dia ##te uniformly across their entire surface . [UNK] rapidly rotating star [UNK] , for example , has a higher energy flux ( power [SEP] as stars ##pot ##s . [UNK] , dwarf stars such as our [UNK] generally have essentially < un ##k > disks with only small stars ##pot ##s . [UNK] stars have much larger , more obvious stars ##pot ##s , and they also exhibit strong stellar limb darkening . [UNK] is , the brightness decreases towards the edge of the stellar disk [SEP]
+04/22/2020 11:49:46 - INFO - root -   tokens: [CLS] ##k [MASK] energy it ra ##dia ##tes per unit of time . [UNK] has units of power . [UNK] lu ##min ##osity of [MASK] star is determined by its radius [MASK] surface temperature . [UNK] [MASK] do not ra ##dia ##te uniformly across their entire surface . [UNK] rapidly rotating [MASK] [UNK] , for example , has a [MASK] spilled flux ( power [SEP] as stars ##pot [MASK] . [UNK] [MASK] [MASK] stars such as ##ici [UNK] generally have essentially < un ##k > disks with [MASK] [MASK] stars ##pot ##s . [UNK] stars have much larger , more obvious stars [MASK] [MASK] , and [MASK] [MASK] [MASK] strong stellar limb darkening . [UNK] is , the brightness decreases towards the edge of the stellar disk [SEP]
+04/22/2020 11:49:46 - INFO - root -   masked_lm_labels: > a and surface stars star higher energy ##s , dwarf our only small ##pot ##s they also exhibit
+04/22/2020 11:49:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:49:46 - INFO - root -   masked_lm_positions: 2 24 31 32 36 51 59 60 68 71 72 76 87 88 102 103 106 107 108
+04/22/2020 11:49:46 - INFO - root -   is_random_next : False
+04/22/2020 11:49:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:46 - INFO - root -   id: 3
+04/22/2020 11:49:46 - INFO - root -   original tokens: [CLS] for the first time in the [UNK] [UNK] [UNK] . [UNK] the 1st [UNK] [UNK] , each armored regiment was issued twelve [UNK] . [UNK] these , three were used in each battalion headquarters platoon and three were used in each regimental reconnaissance platoon . [UNK] addition , the 6th and 41st [UNK] [UNK] [UNK] were each issued with nine [UNK] [UNK] , [SEP] and two 105 mm < un ##k > [UNK] . [UNK] one encounter in [UNK] [UNK] , the [UNK] was used in an attempt to destroy [UNK] tanks . [UNK] the [UNK] fired several < un ##k > , the [UNK] tanks were barely damaged and the [UNK] were ordered to retreat under the cover of smoke to prevent losses . [UNK] [SEP]
+04/22/2020 11:49:46 - INFO - root -   tokens: [CLS] for the first time in the [UNK] [UNK] [UNK] . [MASK] ##nson 1st [MASK] [UNK] , each armored regiment was issued twelve [UNK] . [UNK] these , three were used in each battalion headquarters platoon [MASK] [MASK] [MASK] used in each regimental [MASK] platoon . [UNK] addition , the 6th [MASK] 41st [UNK] [UNK] [UNK] were each issued with nine [UNK] [UNK] , [SEP] and two 105 mm < un ##k > [UNK] [MASK] [UNK] one encounter in [UNK] [UNK] , the [UNK] was used phi an attempt to destroy [UNK] tanks . [UNK] the [UNK] fired several < un ##k > , the [UNK] tanks were [MASK] damaged [MASK] the [UNK] were ordered to retreat under the cover of ceremonial [MASK] prevent losses . [UNK] [SEP]
+04/22/2020 11:49:46 - INFO - root -   masked_lm_labels: [UNK] the 1st [UNK] were and three were reconnaissance . 6th and . in > barely and smoke to
+04/22/2020 11:49:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:49:46 - INFO - root -   masked_lm_positions: 11 12 13 14 29 36 37 38 43 45 50 51 74 86 102 108 110 121 122
+04/22/2020 11:49:46 - INFO - root -   is_random_next : False
+04/22/2020 11:49:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 11:49:46 - INFO - root -   id: 4
+04/22/2020 11:49:46 - INFO - root -   original tokens: [CLS] , and was replaced by towed how ##itzer ##s . [UNK] [UNK] was eventually replaced by the [UNK] [UNK] , which was based on the < un ##k > [UNK] light tank , and which began entering service around the same time as the [UNK] . [UNK] 312 [UNK] [UNK] were delivered in their original configuration , as the last 188 were converted [SEP] following changes in the organization of [UNK] infantry battalions , and was replaced by towed how ##itzer ##s . [UNK] [UNK] was eventually replaced by the [UNK] [UNK] , which was based on the < un ##k > [UNK] light tank , and which began entering service around the same time as the [UNK] . [UNK] 312 [UNK] [UNK] were delivered in [SEP]
+04/22/2020 11:49:46 - INFO - root -   tokens: [CLS] , and was replaced by towed how ##itzer ##s . [UNK] [UNK] [MASK] [MASK] replaced by the [UNK] [UNK] , which was based on the < un ##k > [UNK] light tank , and which began entering service around the same time as the [UNK] . [UNK] 312 [UNK] [UNK] were [MASK] [MASK] their original configuration , as the last 188 [MASK] converted [SEP] following changes in the organization of [UNK] infantry ##was , blamed [MASK] replaced by towed how ##itzer ##s . [UNK] [UNK] was eventually replaced by the [UNK] [MASK] , which was [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] > [UNK] light tank , and which began entering service [MASK] the same time as the [UNK] . [UNK] 312 [UNK] [UNK] were delivered in [SEP]
+04/22/2020 11:49:46 - INFO - root -   masked_lm_labels: was eventually and delivered in were infantry battalions and was [UNK] [UNK] based on the < un ##k around
+04/22/2020 11:49:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 11:49:46 - INFO - root -   masked_lm_positions: 13 14 34 52 53 62 72 73 75 76 85 92 96 97 98 99 100 101 112
+04/22/2020 11:49:46 - INFO - root -   is_random_next : False
+04/22/2020 12:54:14 - INFO - root -   pregenerate training data parameters:
+ Namespace(data_dir=PosixPath('dataset'), data_name='electra', do_data=True, do_lower_case=False, do_split=True, file_num=10, line_per_file=1000000000, masked_lm_prob=0.15, max_ngram=3, max_predictions_per_seq=20, max_seq_len=128, output_dir='./output', seed=42, short_seq_prob=0.1, vocab_path='./prev_trained_model/electra_base/vocab.txt')
+04/22/2020 12:54:14 - INFO - root -   pregenetate electra_file_0.json
+04/22/2020 12:54:56 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:54:56 - INFO - root -   id: 0
+04/22/2020 12:54:56 - INFO - root -   original tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 12:54:56 - INFO - root -   tokens: [CLS] = [MASK] [MASK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 12:54:56 - INFO - root -   masked_lm_labels: = [UNK]
+04/22/2020 12:54:56 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 1 1 1 1 1 1
+04/22/2020 12:54:56 - INFO - root -   masked_lm_positions: 2 3
+04/22/2020 12:54:56 - INFO - root -   is_random_next : True
+04/22/2020 12:54:56 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:54:56 - INFO - root -   id: 1
+04/22/2020 12:54:56 - INFO - root -   original tokens: [CLS] = = [UNK] command ##ment = = [SEP] = = [UNK] command ##ment = = [SEP]
+04/22/2020 12:54:56 - INFO - root -   tokens: [CLS] = = [MASK] command ##ment = = [SEP] = [MASK] [MASK] command ##ment = = [SEP]
+04/22/2020 12:54:56 - INFO - root -   masked_lm_labels: [UNK] = [UNK]
+04/22/2020 12:54:56 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 12:54:56 - INFO - root -   masked_lm_positions: 3 10 11
+04/22/2020 12:54:56 - INFO - root -   is_random_next : True
+04/22/2020 12:54:56 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:54:56 - INFO - root -   id: 2
+04/22/2020 12:54:56 - INFO - root -   original tokens: [CLS] of her own and remaining in control of the battle site ; [UNK] because the vital convoy had passed through the [UNK] unharmed and arrived in [UNK] without significant loss . [UNK] two fleets were showered by their respective nations with both praise and criticism – the latter particularly directed at those captains not felt to have contributed significantly to the fighting . [SEP] of her own and remaining in control of the battle site ; [UNK] because the vital convoy had passed through the [UNK] unharmed and arrived in [UNK] without significant loss . [UNK] two fleets were showered by their respective nations with both praise and criticism – the latter particularly directed at those captains not felt to have contributed significantly to the fighting [SEP]
+04/22/2020 12:54:56 - INFO - root -   tokens: [CLS] of her own [MASK] remaining in control of [MASK] battle site ; [MASK] because the vital convoy had passed [MASK] the [UNK] unharmed and arrived in [UNK] without significant highest [MASK] [UNK] [MASK] fleets were showered by their respective nations with both praise [MASK] criticism [MASK] the latter particularly directed at those captains not [MASK] [MASK] have contributed significantly to the majority . [SEP] of her own and remaining in control of the battle site [MASK] [UNK] because the [MASK] [MASK] [MASK] passed through the [UNK] unharmed and arrived in [UNK] without significant loss [MASK] [MASK] two fleets were showered by their respective nations with both praise and criticism – the latter particularly directed at those captains not politics to have contributed significantly to the fighting [SEP]
+04/22/2020 12:54:56 - INFO - root -   masked_lm_labels: and the [UNK] through loss . two and – felt to fighting ; vital convoy had . [UNK] felt
+04/22/2020 12:54:56 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:54:56 - INFO - root -   masked_lm_positions: 4 9 13 20 30 31 33 44 46 55 56 62 76 80 81 82 95 96 119
+04/22/2020 12:54:56 - INFO - root -   is_random_next : True
+04/22/2020 12:54:56 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:54:56 - INFO - root -   id: 3
+04/22/2020 12:54:56 - INFO - root -   original tokens: [CLS] among the teams without < un ##k > the [UNK] itself . [UNK] trading continued for much of the 20th century until [UNK] started buying up many of the shares in the 1960s . [UNK] was chairman and substantial shareholder of " [UNK] [UNK] [UNK] . [UNK] . " from 1968 to 1975 and the majority shareholder from 1982 to 2006 . [UNK] [SEP] to investors as a way of facilitating trading among the teams without < un ##k > the [UNK] itself . [UNK] trading continued for much of the 20th century until [UNK] started buying up many of the shares in the 1960s . [UNK] was chairman and substantial shareholder of " [UNK] [UNK] [UNK] . [UNK] . " from 1968 to 1975 and [SEP]
+04/22/2020 12:54:56 - INFO - root -   tokens: [CLS] among the teams without < un ##k > the [UNK] [MASK] . [UNK] [MASK] [MASK] [MASK] much of the 20th century until [MASK] started [MASK] up many of the shares in the 1960s . [MASK] [MASK] chairman and substantial shareholder of " [UNK] [UNK] [MASK] . [UNK] [MASK] " from 1968 to [MASK] and [MASK] majority shareholder from 1982 to after [MASK] [MASK] [SEP] to investors as a way of facilitating trading among the teams without < un ##k > the [UNK] itself . [UNK] trading continued for much of the 20th century until [UNK] started buying up many of the shares in the 1960s . [MASK] [MASK] chairman and substantial shareholder of " [UNK] [UNK] [UNK] . [UNK] . " from 1968 to 1975 and [SEP]
+04/22/2020 12:54:56 - INFO - root -   masked_lm_labels: ##k itself trading continued for [UNK] started buying [UNK] was [UNK] . " 1975 the 2006 . [UNK] [UNK] was
+04/22/2020 12:54:56 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:54:56 - INFO - root -   masked_lm_positions: 7 11 14 15 16 23 24 25 35 36 45 48 49 53 55 61 62 63 107 108
+04/22/2020 12:54:56 - INFO - root -   is_random_next : True
+04/22/2020 12:54:56 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:54:56 - INFO - root -   id: 4
+04/22/2020 12:54:56 - INFO - root -   original tokens: [CLS] shares , making him the majority shareholder . [UNK] also appointed himself [UNK] of the club . [UNK] [UNK] ' s last year in charge [UNK] lost £ < un ##k > before tax , compared with a £ < un ##k > profit the previous year , and income had fallen from £ < un ##k > to £ < un ##k [SEP] shares , making him the majority shareholder . [UNK] also appointed himself [UNK] of the club . [UNK] [UNK] ' s last year in charge [UNK] lost £ < un ##k > before tax , compared with a £ < un ##k > profit the previous year , and income had fallen from £ < un ##k > to £ < un [SEP]
+04/22/2020 12:54:56 - INFO - root -   tokens: [CLS] shares , making him the majority shareholder . [UNK] also appointed himself [MASK] [MASK] [MASK] club distortion [UNK] [UNK] ' s last year in [MASK] ##vira ii £ < un ##k > before tax , compared with a £ < un ##k > [MASK] the [MASK] [MASK] , and income had fallen from £ [MASK] un [MASK] > [MASK] £ < un ##k [SEP] shares , making him the majority shareholder . [UNK] also appointed [MASK] [MASK] of the club [MASK] [UNK] [UNK] ' s last year in charge [UNK] lost [MASK] < un ##k > before tax , compared with a £ < un ##k > profit the previous year , and income had fallen from £ < un ##k [MASK] [MASK] ##urian < un [SEP]
+04/22/2020 12:54:56 - INFO - root -   masked_lm_labels: [UNK] of the . charge [UNK] lost profit previous year < un ##k to himself [UNK] . £ > to £
+04/22/2020 12:54:56 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:54:56 - INFO - root -   masked_lm_positions: 13 14 15 17 25 26 27 44 46 47 55 56 57 59 76 77 81 92 122 123 124
+04/22/2020 12:54:56 - INFO - root -   is_random_next : True
+04/22/2020 12:54:57 - INFO - root -   pregenetate electra_file_1.json
+04/22/2020 12:55:39 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:55:39 - INFO - root -   id: 0
+04/22/2020 12:55:39 - INFO - root -   original tokens: [CLS] = = [UNK] and fitting ##s = = [SEP] = = [UNK] and fitting ##s = = [SEP]
+04/22/2020 12:55:39 - INFO - root -   tokens: [CLS] trieste [MASK] [UNK] and [MASK] [MASK] = = [SEP] = = [UNK] and fitting ##s = = [SEP]
+04/22/2020 12:55:39 - INFO - root -   masked_lm_labels: = = fitting ##s
+04/22/2020 12:55:39 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1
+04/22/2020 12:55:39 - INFO - root -   masked_lm_positions: 1 2 5 6
+04/22/2020 12:55:39 - INFO - root -   is_random_next : False
+04/22/2020 12:55:39 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:55:39 - INFO - root -   id: 1
+04/22/2020 12:55:39 - INFO - root -   original tokens: [CLS] = = = [UNK] [UNK] [UNK] = = = [SEP] = = = [UNK] [UNK] [UNK] = = = [SEP]
+04/22/2020 12:55:39 - INFO - root -   tokens: [CLS] = = = [UNK] [UNK] [UNK] = [MASK] [MASK] [MASK] [MASK] = = [UNK] [UNK] [UNK] = = = [SEP]
+04/22/2020 12:55:39 - INFO - root -   masked_lm_labels: = = [SEP] = =
+04/22/2020 12:55:39 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:55:39 - INFO - root -   masked_lm_positions: 8 9 10 11 13
+04/22/2020 12:55:39 - INFO - root -   is_random_next : True
+04/22/2020 12:55:39 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:55:39 - INFO - root -   id: 2
+04/22/2020 12:55:39 - INFO - root -   original tokens: [CLS] ago at the end of the [UNK] . [UNK] the end of the last glacial period , a great migration of humans began , traveling via the [UNK] land bridge from [UNK] into and throughout the [UNK] . [UNK] they traveled slowly over centuries , the [UNK] [UNK] formed one of the main migration paths . [UNK] settled in the [UNK] [UNK] and [SEP] end of the [UNK] . [UNK] the end of the last glacial period , a great migration of humans began , traveling via the [UNK] land bridge from [UNK] into and throughout the [UNK] . [UNK] they traveled slowly over centuries , the [UNK] [UNK] formed one of the main migration paths . [UNK] settled in the [UNK] [UNK] and the lower [SEP]
+04/22/2020 12:55:39 - INFO - root -   tokens: [CLS] ago at the end of the [UNK] . [UNK] the end of the last glacial period , a great migration of humans began , traveling via the [UNK] land [MASK] from [UNK] into and throughout the [MASK] . [UNK] they traveled slowly over centuries , the [UNK] [UNK] formed one [MASK] [MASK] main migration paths [MASK] [MASK] [MASK] in the [UNK] [UNK] and [SEP] end of the [UNK] [MASK] [UNK] the [MASK] [MASK] the [MASK] [MASK] [MASK] , a great migration of humans began , traveling via [MASK] [UNK] land bridge [MASK] tall into and throughout the [UNK] . [UNK] they traveled slowly over centuries , the [MASK] [MASK] [MASK] one of the main migration paths . [UNK] settled in the [UNK] [UNK] and the lower [SEP]
+04/22/2020 12:55:39 - INFO - root -   masked_lm_labels: bridge [UNK] of the . [UNK] settled . [UNK] end of last glacial period the from [UNK] [UNK] [UNK] formed
+04/22/2020 12:55:39 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:55:39 - INFO - root -   masked_lm_positions: 30 37 51 52 56 57 58 69 70 72 73 75 76 77 88 92 93 108 109 110
+04/22/2020 12:55:39 - INFO - root -   is_random_next : False
+04/22/2020 12:55:39 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:55:39 - INFO - root -   id: 3
+04/22/2020 12:55:39 - INFO - root -   original tokens: [CLS] rip ##arian areas in the river ' s flood ##pl ##ain that provided them with natural herbs and staple foods . [UNK] written records from the tribes and peoples of the pre @ - @ [UNK] period exist because they did not use writing . [UNK] to the writings of explorers , some of the major tribes along the [UNK] [UNK] included the [SEP] areas in the river ' s flood ##pl ##ain that provided them with natural herbs and staple foods . [UNK] written records from the tribes and peoples of the pre @ - @ [UNK] period exist because they did not use writing . [UNK] to the writings of explorers , some of the major tribes along the [UNK] [UNK] included the < [SEP]
+04/22/2020 12:55:39 - INFO - root -   tokens: [CLS] rip ##arian areas in the river ' s flood ##pl ##ain that provided them with natural herbs and staple foods . [UNK] written records from the tribes and [MASK] of [MASK] avail @ - [MASK] [UNK] period exist because they did not use writing . [UNK] to the writings [MASK] explorers [MASK] some of the major tribes along the [UNK] [MASK] [MASK] the [SEP] [MASK] in the river ' s flood ##pl ##ain that provided them with natural [MASK] and [MASK] [MASK] kingdoms [UNK] written records from the tribes and peoples of the pre @ - @ [UNK] period exist because they did not use writing . [MASK] to [MASK] [MASK] [MASK] [MASK] , some of the major tribes along the [UNK] [UNK] [MASK] the < [SEP]
+04/22/2020 12:55:39 - INFO - root -   masked_lm_labels: peoples the pre @ of , [UNK] included areas herbs staple foods . [UNK] the writings of explorers included
+04/22/2020 12:55:39 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:55:39 - INFO - root -   masked_lm_positions: 29 31 32 35 50 52 61 62 65 79 81 82 83 108 110 111 112 113 124
+04/22/2020 12:55:39 - INFO - root -   is_random_next : True
+04/22/2020 12:55:39 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:55:39 - INFO - root -   id: 4
+04/22/2020 12:55:39 - INFO - root -   original tokens: [CLS] summer and winter camps . [UNK] , the center of [UNK] [UNK] wealth and trade lay along the [UNK] [UNK] in the [UNK] region on its great bend south . [UNK] large cluster of walled [UNK] , [UNK] and < un ##k > villages situated on < un ##k > and islands of the river was home to thousands , and later served [SEP] [UNK] [UNK] wealth and trade lay along the [UNK] [UNK] in the [UNK] region on its great bend south . [UNK] large cluster of walled [UNK] , [UNK] and < un ##k > villages situated on < un ##k > and islands of the river was home to thousands , and later served as a market and trading post used by early [SEP]
+04/22/2020 12:55:39 - INFO - root -   tokens: [CLS] summer and winter camps . [UNK] [MASK] ##bron [MASK] of [UNK] [UNK] wealth and trade lay along the [UNK] [UNK] in the [UNK] region on its great [MASK] south . [UNK] large cluster of walled [UNK] , [UNK] and < un [MASK] [MASK] [MASK] situated on < un ##k > and islands of [MASK] river was home to thousands , and later [MASK] [MASK] [MASK] [UNK] wealth and trade lay along the [UNK] [UNK] in the [UNK] region [MASK] its great bend south . [UNK] [MASK] [MASK] of walled [UNK] , [UNK] and < un ##k > villages situated on < un ##k > [MASK] [MASK] [MASK] the river [MASK] home to thousands , and later served as a market and trading post used by early [SEP]
+04/22/2020 12:55:39 - INFO - root -   masked_lm_labels: [UNK] , the center bend ##k > villages the served [SEP] [UNK] on large cluster and islands of was
+04/22/2020 12:55:39 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:55:39 - INFO - root -   masked_lm_positions: 6 7 8 9 28 42 43 44 54 63 64 65 79 86 87 105 106 107 110
+04/22/2020 12:55:39 - INFO - root -   is_random_next : True
+04/22/2020 12:55:40 - INFO - root -   pregenetate electra_file_2.json
+04/22/2020 12:56:21 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:56:21 - INFO - root -   id: 0
+04/22/2020 12:56:21 - INFO - root -   original tokens: [CLS] = = = < un ##k > spiral = = = [SEP] = = = < un ##k > spiral = = = [SEP]
+04/22/2020 12:56:21 - INFO - root -   tokens: [CLS] = = = < un [MASK] > anywhere = = = [SEP] = = [MASK] < un ##k ذ spiral = = = [SEP]
+04/22/2020 12:56:21 - INFO - root -   masked_lm_labels: ##k spiral = >
+04/22/2020 12:56:21 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:56:21 - INFO - root -   masked_lm_positions: 6 8 15 19
+04/22/2020 12:56:21 - INFO - root -   is_random_next : False
+04/22/2020 12:56:21 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:56:21 - INFO - root -   id: 1
+04/22/2020 12:56:21 - INFO - root -   original tokens: [CLS] bee @ - @ eater ( [UNK] < un ##k > ) . [UNK] notes recorded its tendency to scare off prey as hunters were about to shoot . [UNK] was as the chatter ##ing bee @ - @ eater that it was painted between 1792 and 1797 by [UNK] < un ##k > , one of a group known collectively as the [SEP] eater ( [UNK] < un ##k > ) . [UNK] notes recorded its tendency to scare off prey as hunters were about to shoot . [UNK] was as the chatter ##ing bee @ - @ eater that it was painted between 1792 and 1797 by [UNK] < un ##k > , one of a group known collectively as the [UNK] [UNK] [UNK] [SEP]
+04/22/2020 12:56:21 - INFO - root -   tokens: [CLS] bee @ - @ eater ( [UNK] < un ##k > ) . [UNK] notes recorded [MASK] [MASK] [MASK] scare off prey as hunters were about to shoot . [UNK] was as the [MASK] ##ing [MASK] @ - @ eater that it was painted between 1792 and 1797 [MASK] [UNK] < un ##k > , one of a group known collectively as the [SEP] eater ( [UNK] [MASK] [MASK] ##k > ) . [MASK] [MASK] recorded its [MASK] to scare off prey as hunters were about to shoot . [UNK] was as the chatter ##ing bee [MASK] [MASK] [MASK] [MASK] [MASK] it was painted between 1792 and 1797 by [UNK] < un ##k > , one of a group known collectively [MASK] the [UNK] [UNK] [UNK] [SEP]
+04/22/2020 12:56:21 - INFO - root -   masked_lm_labels: ##k its tendency to were chatter bee by ( < un [UNK] notes tendency @ - @ eater that as
+04/22/2020 12:56:21 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:56:21 - INFO - root -   masked_lm_positions: 10 17 18 19 25 34 36 49 66 68 69 74 75 78 97 98 99 100 101 122
+04/22/2020 12:56:21 - INFO - root -   is_random_next : True
+04/22/2020 12:56:21 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:56:21 - INFO - root -   id: 2
+04/22/2020 12:56:21 - INFO - root -   original tokens: [CLS] " black " , and < un ##k > " head " , referring to its black crown . [UNK] common names include [UNK] miner and < un ##k > . [UNK] subspecies are recognised , including subspecies leach ##i found in eastern [UNK] . [UNK] mainland population was split into three subspecies in 1999 by [UNK] < un ##k > — < [SEP] words < un ##k > " black " , and < un ##k > " head " , referring to its black crown . [UNK] common names include [UNK] miner and < un ##k > . [UNK] subspecies are recognised , including subspecies leach ##i found in eastern [UNK] . [UNK] mainland population was split into three subspecies in 1999 by [UNK] [SEP]
+04/22/2020 12:56:21 - INFO - root -   tokens: [CLS] " black " , aqueduct [MASK] [MASK] ##k > " head " , referring to its black crown . [UNK] common names include [UNK] miner and < un ##k > [MASK] [UNK] subspecies are [MASK] [MASK] including subspecies leach porch found in eastern [UNK] . [UNK] mainland [MASK] [MASK] split [MASK] three subspecies in 1999 by [UNK] < un ##k > — < [SEP] words < un ##k > " black " , and < un ##k [MASK] " head " , referring to its black crown . [UNK] common names include [UNK] miner and < un ##k > . [UNK] subspecies are recognised [MASK] including [MASK] leach ##i found in eastern [UNK] . [UNK] mainland population was split into three subspecies in 1999 by [UNK] [SEP]
+04/22/2020 12:56:21 - INFO - root -   masked_lm_labels: and < un " names . recognised , ##i population was split into ##k > , subspecies found split
+04/22/2020 12:56:21 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:56:21 - INFO - root -   masked_lm_positions: 5 6 7 10 22 31 35 36 40 48 49 50 51 60 78 105 107 110 119
+04/22/2020 12:56:21 - INFO - root -   is_random_next : False
+04/22/2020 12:56:21 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:56:21 - INFO - root -   id: 3
+04/22/2020 12:56:21 - INFO - root -   original tokens: [CLS] the most obvious characteristics of the genus is a patch of bare yellow skin behind the eyes , which gives them an odd ' cross @ - @ eyed ' look . [UNK] the genus , the noisy , black @ - @ ear ##ed and yellow @ - @ throat ##ed miners form the subgenus < un ##k > . [UNK] noisy [SEP] the eyes , which gives them an odd ' cross @ - @ eyed ' look . [UNK] the genus , the noisy , black @ - @ ear ##ed and yellow @ - @ throat ##ed miners form the subgenus < un ##k > . [UNK] noisy miner occasionally < un ##k > with the yellow @ - @ throat ##ed [SEP]
+04/22/2020 12:56:21 - INFO - root -   tokens: [CLS] the most [MASK] [MASK] [MASK] the [MASK] feels a patch of bare yellow skin behind the eyes , which gives them an odd ' cross @ - @ eyed ' look . [UNK] the [MASK] [MASK] the noisy , black @ - @ ear ##ed and yellow @ - [MASK] throat [MASK] miners form the subgenus < un ##k > . [UNK] noisy [SEP] the eyes , [MASK] [MASK] [MASK] an odd ' [MASK] [MASK] [MASK] @ eyed ' look . [UNK] [MASK] josie , the noisy , black @ - @ ear ##ed and yellow @ - @ throat ##ed miners form the subgenus < un ##k > . [UNK] noisy miner occasionally < un [MASK] > with the yellow @ - @ throat ##ed [SEP]
+04/22/2020 12:56:21 - INFO - root -   masked_lm_labels: obvious characteristics of genus is genus , @ ##ed which gives them cross @ - the genus yellow ##k
+04/22/2020 12:56:21 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:56:21 - INFO - root -   masked_lm_positions: 3 4 5 7 8 35 36 50 52 68 69 70 74 75 76 83 84 96 117
+04/22/2020 12:56:21 - INFO - root -   is_random_next : False
+04/22/2020 12:56:21 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:56:21 - INFO - root -   id: 4
+04/22/2020 12:56:21 - INFO - root -   original tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 12:56:21 - INFO - root -   tokens: [CLS] = = [UNK] [MASK] [MASK] [SEP] font = [UNK] = = [SEP]
+04/22/2020 12:56:21 - INFO - root -   masked_lm_labels: = = =
+04/22/2020 12:56:21 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 1 1 1 1 1 1
+04/22/2020 12:56:21 - INFO - root -   masked_lm_positions: 4 5 7
+04/22/2020 12:56:21 - INFO - root -   is_random_next : True
+04/22/2020 12:56:22 - INFO - root -   pregenetate electra_file_3.json
+04/22/2020 12:57:04 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:04 - INFO - root -   id: 0
+04/22/2020 12:57:04 - INFO - root -   original tokens: [CLS] health problem in humans until the 1960s ( the outbreak of [UNK] disease in [UNK] in the 1920s went widely ignored ) . [UNK] [UNK] discovered that the int ##est ##ines of < un ##k > ( now < un ##k > : [UNK] ) < un ##k > a < un ##k > < un ##k > , a new species of [SEP] as a major public health problem in humans until the 1960s ( the outbreak of [UNK] disease in [UNK] in the 1920s went widely ignored ) . [UNK] [UNK] discovered that the int ##est ##ines of < un ##k > ( now < un ##k > : [UNK] ) < un ##k > a < un ##k > < un ##k > [SEP]
+04/22/2020 12:57:04 - INFO - root -   tokens: [CLS] health problem in humans until the 1960s ( coordinator [MASK] [MASK] [UNK] disease in [UNK] in the [MASK] [MASK] [MASK] ignored ) . [UNK] [UNK] discovered that the [MASK] portable [MASK] of < un ##k > ( now < un ##k > : [UNK] ) < iteration ##k > a < un ##k > < un ##k > , a new [MASK] of [SEP] as a major public health problem in [MASK] until the 1960s ( the outbreak of [UNK] disease in [UNK] [MASK] the 1920s went widely ignored ) . [UNK] [UNK] discovered that [MASK] int ##est ##ines of < un ##k > ( now < un ##k > : [UNK] ) < un imagine [MASK] a < un ##k > < un ##k > [SEP]
+04/22/2020 12:57:04 - INFO - root -   masked_lm_labels: ( the outbreak of 1920s went widely int ##est ##ines un species humans until in the the ##k >
+04/22/2020 12:57:04 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:57:04 - INFO - root -   masked_lm_positions: 8 9 10 11 18 19 20 29 30 31 47 62 72 73 84 85 96 116 117
+04/22/2020 12:57:04 - INFO - root -   is_random_next : False
+04/22/2020 12:57:04 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:04 - INFO - root -   id: 1
+04/22/2020 12:57:04 - INFO - root -   original tokens: [CLS] fever , smallpox , and < un ##k > plague in [UNK] de [UNK] and other cities in the beginning of the 20th century . [UNK] was also the first to un ##k ##now ##ingly discover and illustrate the parasitic fungal genus [UNK] , later < un ##k > linked to < un ##k > ( [UNK] pneumonia in [UNK] victims ) . [SEP] ##k > of yellow fever , smallpox , and < un ##k > plague in [UNK] de [UNK] and other cities in the beginning of the 20th century . [UNK] was also the first to un ##k ##now ##ingly discover and illustrate the parasitic fungal genus [UNK] , later < un ##k > linked to < un ##k > ( [UNK] pneumonia [SEP]
+04/22/2020 12:57:04 - INFO - root -   tokens: [CLS] fever , smallpox , and < un ##k > plague in [UNK] [MASK] [MASK] and other cities in the beginning of the 20th century . [UNK] was also the first to un ##k ##now ##ingly [MASK] and illustrate the parasitic fungal genus [UNK] , later < un ##k > royals lea < [MASK] ##k > ( [UNK] [MASK] fueled [MASK] victims ) . [SEP] ##k > of yellow fever [MASK] [MASK] , and < un [MASK] oleg plague in [MASK] [MASK] [UNK] and other cities in the beginning of the 20th century . [UNK] was also the [MASK] to un ##k ##now ##ingly discover and illustrate the parasitic fungal genus [UNK] , later < un ##k [MASK] [MASK] to < un ##k > ( [UNK] pneumonia [SEP]
+04/22/2020 12:57:04 - INFO - root -   masked_lm_labels: de [UNK] discover linked to un ##k pneumonia in [UNK] , smallpox ##k > [UNK] de first > linked
+04/22/2020 12:57:04 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:57:04 - INFO - root -   masked_lm_positions: 13 14 36 50 51 53 54 58 59 60 70 71 76 77 80 81 98 117 118
+04/22/2020 12:57:04 - INFO - root -   is_random_next : False
+04/22/2020 12:57:04 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:04 - INFO - root -   id: 2
+04/22/2020 12:57:04 - INFO - root -   original tokens: [CLS] disease is known as mal de [UNK] @ - @ [UNK] , in honor of [UNK] [UNK] , the [UNK] physician who in 1926 began investigating the disease and over the years became the principal researcher of this disease in the country . [UNK] produced the first scientific confirmation of the existence of [UNK] cruz ##i in [UNK] in 1927 , eventually leading [SEP] [UNK] @ - @ [UNK] , in honor of [UNK] [UNK] , the [UNK] physician who in 1926 began investigating the disease and over the years became the principal researcher of this disease in the country . [UNK] produced the first scientific confirmation of the existence of [UNK] cruz ##i in [UNK] in 1927 , eventually leading to support from local and [SEP]
+04/22/2020 12:57:04 - INFO - root -   tokens: [CLS] [MASK] is known as mal de [MASK] @ - @ [UNK] , in honor of [UNK] [UNK] , the [UNK] physician who in 1926 began investigating the disease and over the years became the principal [MASK] [MASK] [MASK] disease in the [MASK] [MASK] [MASK] produced [MASK] first scientific confirmation of the existence [MASK] [UNK] cruz ##i in [UNK] in 1927 , eventually leading [SEP] [UNK] @ bout @ [UNK] , in [MASK] [MASK] [UNK] [UNK] , the [UNK] physician who in 1926 began investigating the disease [MASK] over the years became the principal researcher of this disease in the country . [UNK] produced the first scientific confirmation of the [MASK] export [UNK] cruz ##i in [UNK] in 1927 , [MASK] leading to support from local and [SEP]
+04/22/2020 12:57:04 - INFO - root -   masked_lm_labels: disease is [UNK] researcher of this country . [UNK] the of [UNK] - honor of and existence of eventually
+04/22/2020 12:57:04 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:57:04 - INFO - root -   masked_lm_positions: 1 2 7 36 37 38 42 43 44 46 53 54 67 72 73 87 110 111 120
+04/22/2020 12:57:04 - INFO - root -   is_random_next : True
+04/22/2020 12:57:04 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:04 - INFO - root -   id: 3
+04/22/2020 12:57:04 - INFO - root -   original tokens: [CLS] in his diaries of the [UNK] of the < un ##k > as occurring in [UNK] 1835 to the east of the [UNK] near [UNK] . [UNK] was young and generally in good health , though six months previously he had been ill for a month near < un ##k > , but in 1837 , almost a year after he returned to [SEP] the < un ##k > as occurring in [UNK] 1835 to the east of the [UNK] near [UNK] . [UNK] was young and generally in good health , though six months previously he had been ill for a month near < un ##k > , but in 1837 , almost a year after he returned to [UNK] , he began to suffer [SEP]
+04/22/2020 12:57:04 - INFO - root -   tokens: [CLS] [MASK] his diaries of the [UNK] of the < un ##k > [MASK] [MASK] in [UNK] 1835 to the east of the [UNK] near [UNK] . [UNK] was young and generally in good dug [MASK] though six months previously [MASK] [MASK] [MASK] ill for a month near < un ##k > , but in 1837 , almost a year after he returned to [SEP] the < un ##k > [MASK] [MASK] ##uration [MASK] 1835 to the east of the [UNK] near [MASK] . [UNK] was young and generally in good health , though six months previously he had been ill for a month near < [MASK] ##k > , [MASK] in 1837 , almost a year after documentary elton to [MASK] [MASK] he began to suffer [SEP]
+04/22/2020 12:57:04 - INFO - root -   masked_lm_labels: in as occurring health , he had been as occurring in [UNK] [UNK] un but he returned [UNK] ,
+04/22/2020 12:57:04 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:57:04 - INFO - root -   masked_lm_positions: 1 13 14 34 35 40 41 42 70 71 72 73 82 106 110 118 119 121 122
+04/22/2020 12:57:04 - INFO - root -   is_random_next : False
+04/22/2020 12:57:04 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:04 - INFO - root -   id: 4
+04/22/2020 12:57:04 - INFO - root -   original tokens: [CLS] vertices and seeks the minimum ( or maximum ) weight of a closure , a set of vertices with no outgoing edges . ( [UNK] problem may be formulated for directed graphs without the assumption of < un ##k > , but with no greater < un ##k > , because in this case it is equivalent to the same problem on the [SEP] ( or maximum ) weight of a closure , a set of vertices with no outgoing edges . ( [UNK] problem may be formulated for directed graphs without the assumption of < un ##k > , but with no greater < un ##k > , because in this case it is equivalent to the same problem on the conde ##ns ##ation of [SEP]
+04/22/2020 12:57:04 - INFO - root -   tokens: [CLS] vertices and seeks the minimum ( or [MASK] ) [MASK] [MASK] [MASK] closure , a set of vertices [MASK] [MASK] outgoing edges . ( [UNK] problem may be formulated for directed graphs without the assumption of < [MASK] [MASK] > , but with no greater [MASK] [MASK] ##k > , because in this [MASK] it is equivalent to the [MASK] problem on the [SEP] ( or maximum [MASK] weight of a closure , a set of vertices with no outgoing edges . ( [UNK] problem may be formulated [MASK] directed graphs without the assumption of < un ##k > , but with no entity [MASK] un ##k > , because in this case it is equivalent to the same problem on the conde ##ns ##ation of [SEP]
+04/22/2020 12:57:04 - INFO - root -   masked_lm_labels: maximum weight of a with no un ##k < un case same problem ) weight for directed greater < un
+04/22/2020 12:57:04 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:57:04 - INFO - root -   masked_lm_positions: 8 10 11 12 19 20 38 39 46 47 54 60 61 68 69 89 90 104 105 106
+04/22/2020 12:57:04 - INFO - root -   is_random_next : False
+04/22/2020 12:57:05 - INFO - root -   pregenetate electra_file_4.json
+04/22/2020 12:57:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:47 - INFO - root -   id: 0
+04/22/2020 12:57:47 - INFO - root -   original tokens: [CLS] first aired on the [UNK] network in the [UNK] [UNK] on [UNK] 2 , 1999 . [UNK] the episode , [UNK] . [UNK] is jealous of < un ##k > owner [UNK] [UNK] , who is beloved by the people of [UNK] . [UNK] order to win the people ' s love , [UNK] < un ##k > the help of [UNK] [UNK] [SEP] ##k > . [UNK] idea for the episode was pitched by the [UNK] writing staff , who wanted to make an episode in which [UNK] . [UNK] becomes a " < un ##k > " , a millionaire who goes on thrilling adventures . [UNK] it would originally be green , a mistake in the overseas animation led to the [UNK] [UNK] [SEP]
+04/22/2020 12:57:47 - INFO - root -   tokens: [CLS] first aired on the [UNK] network in the [UNK] [MASK] [MASK] [UNK] 2 , 1999 . [UNK] the episode , [UNK] . [UNK] is jealous of < [MASK] [MASK] > owner [UNK] [UNK] , who is beloved by the people of [UNK] . [UNK] order to win the people ' s love , [UNK] < un ##k > the help of [UNK] [UNK] [SEP] ##k [MASK] . [UNK] [MASK] [MASK] [MASK] [MASK] [MASK] pitched by [MASK] [UNK] writing staff , who wanted to make an episode in which [UNK] . [UNK] [MASK] a [MASK] < un ##k > " [MASK] a millionaire who goes on [MASK] adventures . [UNK] it would originally [MASK] [MASK] [MASK] a mistake in the overseas animation led to the [UNK] [UNK] [SEP]
+04/22/2020 12:57:47 - INFO - root -   masked_lm_labels: [UNK] on un ##k > idea for the episode was pitched the becomes " , thrilling be green ,
+04/22/2020 12:57:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:57:47 - INFO - root -   masked_lm_positions: 10 11 28 29 66 69 70 71 72 73 74 76 92 94 100 106 113 114 115
+04/22/2020 12:57:47 - INFO - root -   is_random_next : False
+04/22/2020 12:57:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:47 - INFO - root -   id: 1
+04/22/2020 12:57:47 - INFO - root -   original tokens: [CLS] [UNK] its original broadcast , " [UNK] [UNK] ' t [UNK] [UNK] [UNK] " was seen by approximately 7 @ . @ 26 million viewers , and finished in 43rd place in the ratings the week it aired . [UNK] the release of [UNK] [UNK] : [UNK] [UNK] [UNK] [UNK] , the episode received mixed reviews from critics . [SEP] [UNK] its original broadcast , " [UNK] [UNK] ' t [UNK] [UNK] [UNK] " was seen by approximately 7 @ . @ 26 million viewers , and finished in 43rd place in the ratings the week it aired . [UNK] the release of [UNK] [UNK] : [UNK] [UNK] [UNK] [UNK] , the episode received mixed reviews from critics . [SEP]
+04/22/2020 12:57:47 - INFO - root -   tokens: [CLS] [UNK] its original broadcast , " [UNK] [UNK] ' t [UNK] [UNK] [UNK] " was [MASK] [MASK] approximately 7 @ . @ 26 million viewers , and finished in 43rd place in the ratings the week [MASK] [MASK] . [UNK] the release of [UNK] [UNK] : [UNK] [UNK] [UNK] [UNK] , the episode received [MASK] reviews [MASK] critics . [SEP] [UNK] its [MASK] [MASK] [MASK] " [UNK] [UNK] ' [MASK] [MASK] [UNK] [UNK] " was seen by approximately stamps @ . @ 26 million viewers , [MASK] [MASK] in 43rd place in the ratings the week [MASK] aired . [UNK] the release of [UNK] [UNK] : [UNK] [UNK] [MASK] [UNK] [MASK] the episode received mixed reviews from critics . [SEP]
+04/22/2020 12:57:47 - INFO - root -   masked_lm_labels: seen by it aired mixed from critics original broadcast , t [UNK] 7 and finished it [UNK] ,
+04/22/2020 12:57:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:57:47 - INFO - root -   masked_lm_positions: 16 17 37 38 55 57 58 63 64 65 70 71 79 87 88 97 109 111
+04/22/2020 12:57:47 - INFO - root -   is_random_next : True
+04/22/2020 12:57:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:47 - INFO - root -   id: 2
+04/22/2020 12:57:47 - INFO - root -   original tokens: [CLS] = = = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 12:57:47 - INFO - root -   tokens: [CLS] = = [MASK] ##і = = = [SEP] = lucie = [UNK] [MASK] = = [SEP]
+04/22/2020 12:57:47 - INFO - root -   masked_lm_labels: = = [UNK] = =
+04/22/2020 12:57:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 12:57:47 - INFO - root -   masked_lm_positions: 2 3 4 10 13
+04/22/2020 12:57:47 - INFO - root -   is_random_next : False
+04/22/2020 12:57:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:47 - INFO - root -   id: 3
+04/22/2020 12:57:47 - INFO - root -   original tokens: [CLS] = = = < un ##k > = = = [SEP] = = = < un ##k > = = = [SEP]
+04/22/2020 12:57:47 - INFO - root -   tokens: [CLS] = = = < un ##k > = = = [SEP] = = [MASK] < [MASK] ##k > = = = [SEP]
+04/22/2020 12:57:47 - INFO - root -   masked_lm_labels: = < un
+04/22/2020 12:57:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:57:47 - INFO - root -   masked_lm_positions: 14 15 16
+04/22/2020 12:57:47 - INFO - root -   is_random_next : True
+04/22/2020 12:57:47 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:57:47 - INFO - root -   id: 4
+04/22/2020 12:57:47 - INFO - root -   original tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 12:57:47 - INFO - root -   tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 12:57:47 - INFO - root -   masked_lm_labels: [UNK] =
+04/22/2020 12:57:47 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 1 1 1 1 1 1
+04/22/2020 12:57:47 - INFO - root -   masked_lm_positions: 3 4
+04/22/2020 12:57:47 - INFO - root -   is_random_next : True
+04/22/2020 12:57:48 - INFO - root -   pregenetate electra_file_5.json
+04/22/2020 12:58:32 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:58:32 - INFO - root -   id: 0
+04/22/2020 12:58:32 - INFO - root -   original tokens: [CLS] worked at [UNK] [UNK] [UNK] @ - @ affiliate ( [UNK] ) < un ##k > until 1981 when he was asked to submit his resignation after a dispute about the requirements of objective focus in his presentation of news . [UNK] a radio journalist he earned the moniker " the voice of the < un ##k > " and was renowned for [SEP] his old high school after his departure from the [UNK] , [UNK] @ - @ [UNK] was suspended for distributing literature calling for " black revolutionary student power " . [UNK] also led unsuccessful protests to change the school name to [UNK] [UNK] [UNK] . [UNK] attaining his < un ##k > , he studied briefly at [UNK] [UNK] in rural [UNK] [SEP]
+04/22/2020 12:58:32 - INFO - root -   tokens: [CLS] worked at [UNK] [UNK] [UNK] @ - @ affiliate ( [UNK] ) [MASK] un ##k > until 1981 when he was asked to submit his resignation after a dispute about the requirements [MASK] objective focus in his [MASK] [MASK] news . [UNK] a radio [MASK] [MASK] earned the moniker " the voice [MASK] consumed < un ##k > " and was renowned for [SEP] his old high school after his departure from the [UNK] , [UNK] @ - @ [UNK] was suspended [MASK] distributing literature calling [MASK] " black revolutionary student power " . [UNK] also led unsuccessful protests to change the school nevada [MASK] [MASK] [MASK] [MASK] . [UNK] [MASK] his < un ##k > , he studied briefly at [MASK] [UNK] in rural [UNK] [SEP]
+04/22/2020 12:58:32 - INFO - root -   masked_lm_labels: < submit of presentation of journalist he of the @ for for name to [UNK] [UNK] [UNK] attaining [UNK]
+04/22/2020 12:58:32 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:58:32 - INFO - root -   masked_lm_positions: 13 24 33 38 39 45 46 53 54 77 83 87 104 105 106 107 108 111 122
+04/22/2020 12:58:32 - INFO - root -   is_random_next : True
+04/22/2020 12:58:32 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:58:32 - INFO - root -   id: 1
+04/22/2020 12:58:32 - INFO - root -   original tokens: [CLS] ' s murder , [UNK] @ - @ [UNK] was working as a < un ##k > driver in [UNK] two nights a week to supplement his income . [UNK] had been working part @ - @ time as a reporter for < un ##k > , then an [UNK] @ - @ [UNK] @ - @ oriented and minority @ - @ [SEP] murder , [UNK] @ - @ [UNK] was working as a < un ##k > driver in [UNK] two nights a week to supplement his income . [UNK] had been working part @ - @ time as a reporter for < un ##k > , then an [UNK] @ - @ [UNK] @ - @ oriented and minority @ - @ owned [SEP]
+04/22/2020 12:58:32 - INFO - root -   tokens: [CLS] ' s murder , [UNK] @ - [MASK] copied was working as a < un ##k > driver in [UNK] [MASK] liszt ranging week to supplement his income . [UNK] had been working part @ - @ time as a reporter for < un ##k > , then an [UNK] @ [MASK] @ [UNK] @ - @ oriented and minority @ - @ [SEP] murder , [UNK] [MASK] [MASK] @ [UNK] was working as a conducts [MASK] ##k [MASK] [MASK] in [UNK] [MASK] [MASK] a week to supplement his income . [UNK] had been working part @ - @ time as a reporter [MASK] < un [MASK] > , then [MASK] [UNK] @ [MASK] @ [UNK] @ - @ oriented and minority @ - @ owned [SEP]
+04/22/2020 12:58:32 - INFO - root -   masked_lm_labels: - @ [UNK] two nights a - @ - < un > driver two nights for ##k an -
+04/22/2020 12:58:32 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:58:32 - INFO - root -   masked_lm_positions: 7 8 9 21 22 23 52 68 69 76 77 79 80 83 84 104 107 111 114
+04/22/2020 12:58:32 - INFO - root -   is_random_next : True
+04/22/2020 12:58:32 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:58:32 - INFO - root -   id: 2
+04/22/2020 12:58:32 - INFO - root -   original tokens: [CLS] = = = 1905 – 09 = = = [SEP] = = = 1905 – 09 = = = [SEP]
+04/22/2020 12:58:32 - INFO - root -   tokens: [CLS] = = = [MASK] [MASK] [MASK] opponent = = [SEP] = = = 1905 – 09 = = = [SEP]
+04/22/2020 12:58:32 - INFO - root -   masked_lm_labels: 1905 – 09 =
+04/22/2020 12:58:32 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:58:32 - INFO - root -   masked_lm_positions: 4 5 6 7
+04/22/2020 12:58:32 - INFO - root -   is_random_next : True
+04/22/2020 12:58:32 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:58:32 - INFO - root -   id: 3
+04/22/2020 12:58:32 - INFO - root -   original tokens: [CLS] [UNK] [UNK] . [UNK] line centred around a natural ravine known as " [UNK] [UNK] " , with an average depth of 200 ft ( 61 m ) . [UNK] [UNK] ' initial plan to take the position ( as well as achieve a foot ##hold on the roads toward [UNK] ) consisted of a frontal assault by the 2nd [UNK] [UNK] [UNK] [SEP] natural ravine known as " [UNK] [UNK] " , with an average depth of 200 ft ( 61 m ) . [UNK] [UNK] ' initial plan to take the position ( as well as achieve a foot ##hold on the roads toward [UNK] ) consisted of a frontal assault by the 2nd [UNK] [UNK] [UNK] , which would seize < un ##k [SEP]
+04/22/2020 12:58:32 - INFO - root -   tokens: [CLS] [UNK] [UNK] . [UNK] line centred around a natural ravine known as [MASK] [UNK] [UNK] " , with an average depth of 200 ft ( 61 m ) . [MASK] [MASK] [MASK] initial plan to take the position ( as well as achieve a grill ##hold on the roads ##buch [MASK] [MASK] consisted of a frontal assault by the 2nd [UNK] [UNK] [UNK] [SEP] natural ravine known as " [UNK] [UNK] " , with an average depth of 200 ft ( 61 m ) . [UNK] [UNK] ' initial plan to [MASK] [MASK] [MASK] ( as well as achieve a [MASK] [MASK] [MASK] the roads toward [UNK] [MASK] [MASK] of a frontal assault by the 2nd [UNK] [UNK] [MASK] , [MASK] would seize < un ##k [SEP]
+04/22/2020 12:58:32 - INFO - root -   masked_lm_labels: " [UNK] [UNK] ' achieve foot toward [UNK] ) take the position foot ##hold on ) consisted [UNK] which
+04/22/2020 12:58:32 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:58:32 - INFO - root -   masked_lm_positions: 13 30 31 32 43 45 50 51 52 92 93 94 101 102 103 108 109 119 121
+04/22/2020 12:58:32 - INFO - root -   is_random_next : False
+04/22/2020 12:58:32 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:58:32 - INFO - root -   id: 4
+04/22/2020 12:58:32 - INFO - root -   original tokens: [CLS] [UNK] , they were subject to counterattack ##s by the 200 ##th [UNK] [UNK] approximately 10 : 30 . [UNK] 14 : 00 , the regiment had called off its attacks and had taken heavy casualties . [UNK] the west , [UNK] [UNK] ' s [UNK] [UNK] [UNK] fare ##d little better , with [UNK] [UNK] taking heavy casualties in their assault . [SEP] attempts to < un ##k > [UNK] positions in the ravine were unsuccessful . [UNK] 11 [UNK] , the three battalions made another attempt , with the [UNK] [UNK] [UNK] suffering heavy casualties in their attempts to take [UNK] positions in the sector . [UNK] a badly < un ##k > [UNK] [UNK] was able to gain a foot ##hold on the [SEP]
+04/22/2020 12:58:32 - INFO - root -   tokens: [CLS] [UNK] nikola they were subject to counterattack ##s by the 200 ##th [UNK] [UNK] approximately [MASK] [MASK] 30 ##logue [UNK] 14 : 00 , the regiment had called companion its attacks [MASK] had taken [MASK] casualties . [UNK] the west , [UNK] [UNK] [MASK] [MASK] [UNK] [UNK] [UNK] [MASK] [MASK] [MASK] better , with [UNK] [UNK] taking heavy [MASK] in their assault . [SEP] attempts to < un ##k > [UNK] positions in the ravine were unsuccessful . [UNK] 11 [UNK] , the three battalions made another attempt performer with the [UNK] [MASK] [MASK] suffering heavy casualties in their attempts to take [UNK] positions in the sector . [UNK] a badly < un ##k > [MASK] [MASK] was able [MASK] gain a foot ##hold on the [SEP]
+04/22/2020 12:58:32 - INFO - root -   masked_lm_labels: , 10 : . off and heavy ' s fare ##d little casualties , [UNK] [UNK] [UNK] [UNK] to
+04/22/2020 12:58:32 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:58:32 - INFO - root -   masked_lm_positions: 2 16 17 19 29 32 35 44 45 49 50 51 59 89 93 94 116 117 120
+04/22/2020 12:58:32 - INFO - root -   is_random_next : True
+04/22/2020 12:58:33 - INFO - root -   pregenetate electra_file_6.json
+04/22/2020 12:59:17 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:59:17 - INFO - root -   id: 0
+04/22/2020 12:59:17 - INFO - root -   original tokens: [CLS] and rear defence wall were finished in 1885 . [UNK] guns had already been purchased specially , plans for the third fort at [UNK] were not proceeded with . [UNK] [UNK] was experiencing a depression in 1886 and that coupled with a report by [UNK] [UNK] < un ##k > [UNK] sc ##ut ##tled plans for the third coastal fort . [UNK] early [SEP] finished in 1885 . [UNK] guns had already been purchased specially , plans for the third fort at [UNK] were not proceeded with . [UNK] [UNK] was experiencing a depression in 1886 and that coupled with a report by [UNK] [UNK] < un ##k > [UNK] sc ##ut ##tled plans for the third coastal fort . [UNK] early as 1888 the emphasis [SEP]
+04/22/2020 12:59:17 - INFO - root -   tokens: [CLS] and rear defence wall were finished in angles [MASK] [UNK] [MASK] had already been purchased specially , plans for the third fort at [UNK] [MASK] not [MASK] with . [UNK] [UNK] [MASK] experiencing a depression in 1886 and that coupled with a report by [UNK] [UNK] < un ##k > [UNK] sc ##ut ##tled plans for the third coastal fort . [MASK] [MASK] [MASK] finished in 1885 . [UNK] guns had already been purchased specially , plans for the third [MASK] [MASK] [UNK] were not proceeded with . [UNK] [UNK] was experiencing a depression in [MASK] [MASK] [MASK] coupled [MASK] [MASK] report by [UNK] [UNK] < un ##k > [UNK] sc ##ut ##tled plans [MASK] the third coastal fort [MASK] [UNK] early as 1888 the emphasis [SEP]
+04/22/2020 12:59:17 - INFO - root -   masked_lm_labels: 1885 . guns were proceeded was [UNK] early [SEP] fort at 1886 and that with a for the .
+04/22/2020 12:59:17 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:59:17 - INFO - root -   masked_lm_positions: 8 9 11 25 27 32 62 63 64 81 82 96 97 98 100 101 115 116 120
+04/22/2020 12:59:17 - INFO - root -   is_random_next : False
+04/22/2020 12:59:17 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:59:17 - INFO - root -   id: 1
+04/22/2020 12:59:17 - INFO - root -   original tokens: [CLS] equipped in 1889 with two 6 inch bree ##ch @ - @ loading disappearing guns which < un ##k > [UNK] ' s armament . [UNK] decline was also linked to changes in [UNK] [UNK] ' s maritime facilities and the con ##se ##quent northward movement of anchored and berth ##ed vessels . [UNK] the 1880s the [UNK] [UNK] was deepened enabling large [SEP] @ - @ pounder armament , though without result . [UNK] 1901 the fort was manned on a caretaker basis only and no permanent forces were stationed . [UNK] [UNK] [UNK] assumed responsibility for [UNK] [UNK] defence in 1903 and took over the fort . [UNK] [UNK] by then had no significant defence role , the state received £ 14 @ , [SEP]
+04/22/2020 12:59:17 - INFO - root -   tokens: [CLS] equipped in 1889 with two 6 inch bree ##ch [MASK] - [MASK] loading disappearing guns which < un ##k > [UNK] ' s armament . [UNK] decline was also linked to changes in [UNK] [UNK] ' s maritime [MASK] and the con ##se ##quent northward [MASK] [MASK] [MASK] and berth ##ed vessels . [UNK] the 1880s the [UNK] [UNK] was deepened enabling large [SEP] @ - @ pounder armament [MASK] though without result . [MASK] [MASK] the [MASK] was manned on a caretaker basis only and no permanent forces were stationed . [UNK] [UNK] [UNK] assumed responsibility for [UNK] [UNK] defence in [MASK] and took over the fort . [UNK] [UNK] [MASK] [MASK] [MASK] no significant defence role , the state received £ 14 @ , [SEP]
+04/22/2020 12:59:17 - INFO - root -   masked_lm_labels: @ - @ [UNK] facilities con movement of anchored , [UNK] 1901 fort 1903 fort [UNK] by then had
+04/22/2020 12:59:17 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:59:17 - INFO - root -   masked_lm_positions: 10 11 12 21 39 42 46 47 48 70 75 76 78 103 108 111 112 113 114
+04/22/2020 12:59:17 - INFO - root -   is_random_next : False
+04/22/2020 12:59:17 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:59:17 - INFO - root -   id: 2
+04/22/2020 12:59:17 - INFO - root -   original tokens: [CLS] [UNK] [UNK] of the [UNK] ( 2 ) : [UNK] [UNK] : 1987 , 1988 [SEP] [UNK] [UNK] : 1985 [UNK] of the [UNK] : [UNK] / [UNK] 2011 , [UNK] 2011 , [UNK] 2013 < un ##k > [UNK] of the [UNK] : 2012 – 13 [SEP]
+04/22/2020 12:59:17 - INFO - root -   tokens: [CLS] [MASK] determines [MASK] the [UNK] ( 2 ) : [UNK] [UNK] : 1987 , 1988 [SEP] [UNK] [UNK] : 1985 [UNK] of [MASK] [MASK] [MASK] [UNK] / [UNK] 2011 , [UNK] 2011 , [UNK] 2013 < un [MASK] [MASK] [UNK] of the [UNK] : 2012 – 13 [SEP]
+04/22/2020 12:59:17 - INFO - root -   masked_lm_labels: [UNK] [UNK] of the [UNK] : ##k > [UNK]
+04/22/2020 12:59:17 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 12:59:17 - INFO - root -   masked_lm_positions: 1 2 3 23 24 25 38 39 40
+04/22/2020 12:59:17 - INFO - root -   is_random_next : False
+04/22/2020 12:59:17 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:59:17 - INFO - root -   id: 3
+04/22/2020 12:59:17 - INFO - root -   original tokens: [CLS] = [UNK] [UNK] = [SEP] = [UNK] [UNK] = [SEP]
+04/22/2020 12:59:17 - INFO - root -   tokens: [CLS] = [UNK] [UNK] [MASK] [MASK] = [UNK] [UNK] = [SEP]
+04/22/2020 12:59:17 - INFO - root -   masked_lm_labels: = [SEP]
+04/22/2020 12:59:17 - INFO - root -   segment_ids: 0 0 0 0 0 0 1 1 1 1 1
+04/22/2020 12:59:17 - INFO - root -   masked_lm_positions: 4 5
+04/22/2020 12:59:17 - INFO - root -   is_random_next : True
+04/22/2020 12:59:17 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 12:59:17 - INFO - root -   id: 4
+04/22/2020 12:59:17 - INFO - root -   original tokens: [CLS] = [UNK] ( [UNK] [UNK] ) = [SEP] = [UNK] ( [UNK] [UNK] ) = [SEP]
+04/22/2020 12:59:17 - INFO - root -   tokens: [CLS] = [UNK] [MASK] [UNK] [UNK] [MASK] [MASK] [SEP] = [UNK] ( [UNK] [MASK] ) = [SEP]
+04/22/2020 12:59:17 - INFO - root -   masked_lm_labels: ( ) = [UNK]
+04/22/2020 12:59:17 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 12:59:17 - INFO - root -   masked_lm_positions: 3 6 7 13
+04/22/2020 12:59:17 - INFO - root -   is_random_next : True
+04/22/2020 12:59:18 - INFO - root -   pregenetate electra_file_7.json
+04/22/2020 13:00:02 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:02 - INFO - root -   id: 0
+04/22/2020 13:00:02 - INFO - root -   original tokens: [CLS] = = [UNK] reception = = [SEP] = = [UNK] reception = = [SEP]
+04/22/2020 13:00:02 - INFO - root -   tokens: [CLS] = = [UNK] [MASK] = = [SEP] [MASK] = [UNK] reception = = [SEP]
+04/22/2020 13:00:02 - INFO - root -   masked_lm_labels: reception =
+04/22/2020 13:00:02 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+04/22/2020 13:00:02 - INFO - root -   masked_lm_positions: 4 8
+04/22/2020 13:00:02 - INFO - root -   is_random_next : False
+04/22/2020 13:00:02 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:02 - INFO - root -   id: 1
+04/22/2020 13:00:02 - INFO - root -   original tokens: [CLS] = = = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 13:00:02 - INFO - root -   tokens: [CLS] [MASK] [MASK] = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 13:00:02 - INFO - root -   masked_lm_labels: = = [UNK]
+04/22/2020 13:00:02 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 13:00:02 - INFO - root -   masked_lm_positions: 1 2 4
+04/22/2020 13:00:02 - INFO - root -   is_random_next : True
+04/22/2020 13:00:02 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:02 - INFO - root -   id: 2
+04/22/2020 13:00:02 - INFO - root -   original tokens: [CLS] = = [UNK] video = = [SEP] = = [UNK] video = = [SEP]
+04/22/2020 13:00:02 - INFO - root -   tokens: [CLS] [MASK] [MASK] [MASK] video = = [SEP] = = [UNK] video = = [SEP]
+04/22/2020 13:00:02 - INFO - root -   masked_lm_labels: = = [UNK]
+04/22/2020 13:00:02 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+04/22/2020 13:00:02 - INFO - root -   masked_lm_positions: 1 2 3
+04/22/2020 13:00:02 - INFO - root -   is_random_next : True
+04/22/2020 13:00:02 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:02 - INFO - root -   id: 3
+04/22/2020 13:00:02 - INFO - root -   original tokens: [CLS] [UNK] sat out his true freshman year during the 2005 season on reds ##hir ##t status . [UNK] 2006 , he served as the third @ - @ team quarterback behind starter [UNK] < un ##k > and reserve [UNK] [UNK] , but [UNK] saw no playing time during that season . [SEP] [UNK] sat out his true freshman year during the 2005 season on reds ##hir ##t status . [UNK] 2006 , he served as the third @ - @ team quarterback behind starter [UNK] < un ##k > and reserve [UNK] [UNK] , but [UNK] saw no playing time during that season . [SEP]
+04/22/2020 13:00:02 - INFO - root -   tokens: [CLS] [UNK] sat out his true freshman year during [MASK] 2005 season on [MASK] [MASK] ##t status . [UNK] 2006 , he served as the third @ - @ team quarterback behind starter [UNK] < un ##k > and reserve [UNK] [UNK] , but [UNK] saw no playing time [MASK] that season . [SEP] [MASK] sat notable his true freshman year during the 2005 season on [MASK] [MASK] ##t status . [UNK] [MASK] [MASK] [MASK] served as the third @ [MASK] syrian team quarterback behind [MASK] [UNK] < un ##k > and reserve [UNK] [UNK] , but [UNK] saw no playing time [MASK] that season . [SEP]
+04/22/2020 13:00:02 - INFO - root -   masked_lm_labels: the reds ##hir during [UNK] sat out reds ##hir 2006 , he - @ starter during
+04/22/2020 13:00:02 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 13:00:02 - INFO - root -   masked_lm_positions: 9 13 14 49 54 55 56 66 67 72 73 74 80 81 85 102
+04/22/2020 13:00:02 - INFO - root -   is_random_next : False
+04/22/2020 13:00:02 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:02 - INFO - root -   id: 4
+04/22/2020 13:00:02 - INFO - root -   original tokens: [CLS] ##k > delight . " [UNK] [UNK] of [UNK] [UNK] [UNK] [UNK] wrote that " the music and the lyrics are mainly aimed at dance floors , and yet this album keeps reminding listeners that a dance floor is one of the most complicated places on earth . " [UNK] its review , [UNK] wrote " [UNK] ' s on this final stretch [SEP] hip @ - @ hop @ - @ < un ##k > delight . " [UNK] [UNK] of [UNK] [UNK] [UNK] [UNK] wrote that " the music and the lyrics are mainly aimed at dance floors , and yet this album keeps reminding listeners that a dance floor is one of the most complicated places on earth . " [UNK] its review [SEP]
+04/22/2020 13:00:02 - INFO - root -   tokens: [CLS] ##k > [MASK] [MASK] [MASK] [MASK] [UNK] of [MASK] [UNK] [UNK] [MASK] [MASK] [MASK] [MASK] consecutive [MASK] and the lyrics are mainly aimed at dance wind , and yet this album keeps reminding listeners that a dance floor is one of the most [MASK] places on [MASK] . " [UNK] [MASK] review , [UNK] wrote " [UNK] ' s on this final stretch [SEP] [MASK] @ - @ hop @ - @ < un ##k > delight . " [UNK] [UNK] of [UNK] [UNK] [UNK] [UNK] wrote that " the music and the lyrics are mainly aimed at dance floors , and yet this album keeps reminding listeners that [MASK] dance floor is one of the [MASK] [MASK] places on earth . " [UNK] its review [SEP]
+04/22/2020 13:00:02 - INFO - root -   masked_lm_labels: delight . " [UNK] [UNK] [UNK] wrote that " the music floors reminding complicated earth its hip [UNK] a most complicated
+04/22/2020 13:00:02 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 13:00:02 - INFO - root -   masked_lm_positions: 3 4 5 6 9 12 13 14 15 16 17 26 33 44 47 51 65 86 110 117 118
+04/22/2020 13:00:02 - INFO - root -   is_random_next : True
+04/22/2020 13:00:03 - INFO - root -   pregenetate electra_file_8.json
+04/22/2020 13:00:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:46 - INFO - root -   id: 0
+04/22/2020 13:00:46 - INFO - root -   original tokens: [CLS] = = [UNK] impact = = [SEP] = = [UNK] impact = = [SEP]
+04/22/2020 13:00:46 - INFO - root -   tokens: [CLS] = [MASK] [MASK] impact = = [SEP] = = [UNK] impact = = [SEP]
+04/22/2020 13:00:46 - INFO - root -   masked_lm_labels: = [UNK]
+04/22/2020 13:00:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+04/22/2020 13:00:46 - INFO - root -   masked_lm_positions: 2 3
+04/22/2020 13:00:46 - INFO - root -   is_random_next : True
+04/22/2020 13:00:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:46 - INFO - root -   id: 1
+04/22/2020 13:00:46 - INFO - root -   original tokens: [CLS] = = = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 13:00:46 - INFO - root -   tokens: [CLS] = [MASK] = [UNK] = = = [SEP] = [MASK] = [UNK] = = = [SEP]
+04/22/2020 13:00:46 - INFO - root -   masked_lm_labels: = = =
+04/22/2020 13:00:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 13:00:46 - INFO - root -   masked_lm_positions: 2 10 11
+04/22/2020 13:00:46 - INFO - root -   is_random_next : False
+04/22/2020 13:00:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:46 - INFO - root -   id: 2
+04/22/2020 13:00:46 - INFO - root -   original tokens: [CLS] = = = [UNK] = = = [SEP] = = = [UNK] = = = [SEP]
+04/22/2020 13:00:46 - INFO - root -   tokens: [CLS] = = = [UNK] = = [MASK] [SEP] = = = [MASK] = = = [SEP]
+04/22/2020 13:00:46 - INFO - root -   masked_lm_labels: = = [UNK]
+04/22/2020 13:00:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+04/22/2020 13:00:46 - INFO - root -   masked_lm_positions: 2 7 12
+04/22/2020 13:00:46 - INFO - root -   is_random_next : False
+04/22/2020 13:00:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:46 - INFO - root -   id: 3
+04/22/2020 13:00:46 - INFO - root -   original tokens: [CLS] = [UNK] ( song ) = [SEP] = [UNK] ( song ) = [SEP]
+04/22/2020 13:00:46 - INFO - root -   tokens: [CLS] [MASK] [MASK] ( song ) = [SEP] = [UNK] ( song ) = [SEP]
+04/22/2020 13:00:46 - INFO - root -   masked_lm_labels: = [UNK]
+04/22/2020 13:00:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1
+04/22/2020 13:00:46 - INFO - root -   masked_lm_positions: 1 2
+04/22/2020 13:00:46 - INFO - root -   is_random_next : False
+04/22/2020 13:00:46 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:00:46 - INFO - root -   id: 4
+04/22/2020 13:00:46 - INFO - root -   original tokens: [CLS] = = [UNK] = = [SEP] = = [UNK] = = [SEP]
+04/22/2020 13:00:46 - INFO - root -   tokens: [CLS] = = [MASK] [MASK] = [SEP] = = [UNK] = = [SEP]
+04/22/2020 13:00:46 - INFO - root -   masked_lm_labels: [UNK] =
+04/22/2020 13:00:46 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 1 1 1 1 1 1
+04/22/2020 13:00:46 - INFO - root -   masked_lm_positions: 3 4
+04/22/2020 13:00:46 - INFO - root -   is_random_next : False
+04/22/2020 13:00:47 - INFO - root -   pregenetate electra_file_9.json
+04/22/2020 13:01:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:01:31 - INFO - root -   id: 0
+04/22/2020 13:01:31 - INFO - root -   original tokens: [CLS] feathers of the hind @ - @ neck and back , giving birds from [UNK] the appearance of having more distinctive sc ##all ##oping than other populations . [UNK] length generally increases with latitude and [UNK] . < un ##k > leach ##i has < un ##k > shorter wings than the nominate race , although no significant difference in wing length was [SEP] of the hind @ - @ neck and back , giving birds from [UNK] the appearance of having more distinctive sc ##all ##oping than other populations . [UNK] length generally increases with latitude and [UNK] . < un ##k > leach ##i has < un ##k > shorter wings than the nominate race , although no significant difference in wing length was [SEP]
+04/22/2020 13:01:31 - INFO - root -   tokens: [CLS] feathers of the hind @ - @ neck and back , giving birds from [UNK] the appearance of having [MASK] [MASK] [MASK] ##all ##oping than other populations . [UNK] length generally increases with latitude and [UNK] . [MASK] [MASK] ##k > leach ##i has [MASK] un ##k > shorter [MASK] [MASK] [MASK] nominate race , although no significant difference in wing [MASK] was [SEP] of the [MASK] [MASK] [MASK] [MASK] neck [MASK] back , giving birds from [UNK] the appearance of [MASK] more distinctive sc ##all ##oping than other populations . [UNK] length generally increases with latitude and [UNK] . < un ##k > leach ##i has < un ##k [MASK] shorter wings than the nominate race , although no significant difference in wing length was [SEP]
+04/22/2020 13:01:31 - INFO - root -   masked_lm_labels: more distinctive sc generally < un < wings than the wing length hind @ - @ and having more >
+04/22/2020 13:01:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 13:01:31 - INFO - root -   masked_lm_positions: 20 21 22 31 38 39 45 50 51 52 61 62 67 68 69 70 72 82 83 111
+04/22/2020 13:01:31 - INFO - root -   is_random_next : True
+04/22/2020 13:01:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:01:31 - INFO - root -   id: 1
+04/22/2020 13:01:31 - INFO - root -   original tokens: [CLS] subspecies < un ##k > has a shorter tail , paler crown , larger yellow skin patch , and paler upper parts without the yellow @ - @ olive of the nominate race ; and < un ##k > , found in western [UNK] [UNK] [UNK] , is smaller than the nominate race with a black crown , and darker more mo ##ttle [SEP] subspecies < un ##k > has a shorter tail , paler crown , larger yellow skin patch , and paler upper parts without the yellow @ - @ olive of the nominate race ; and < un ##k > , found in western [UNK] [UNK] [UNK] , is smaller than the nominate race with a black crown , and darker more mo [SEP]
+04/22/2020 13:01:31 - INFO - root -   tokens: [CLS] subspecies < un ##k [MASK] [MASK] [MASK] shorter tail , paler crown , larger yellow [MASK] patch , and paler upper [MASK] without the yellow @ - @ olive of the nominate race ; and < un ##k > , found in western [UNK] [UNK] [UNK] , is smaller than the nominate race with a black crown , [MASK] darker more mo ##ttle [SEP] subspecies < un ##k > has a [MASK] tail , paler crown , larger yellow [MASK] [MASK] , and paler upper parts without the yellow @ - [MASK] olive of the [MASK] race ; and < un ##k > ##va [MASK] in western [UNK] [UNK] [MASK] , is smaller [MASK] [MASK] nominate race with a black [MASK] [MASK] and darker more mo [SEP]
+04/22/2020 13:01:31 - INFO - root -   masked_lm_labels: > has a skin parts , and shorter skin patch , @ nominate , found [UNK] than the crown ,
+04/22/2020 13:01:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 13:01:31 - INFO - root -   masked_lm_positions: 5 6 7 16 22 58 59 72 80 81 82 92 96 104 105 110 114 115 121 122
+04/22/2020 13:01:31 - INFO - root -   is_random_next : False
+04/22/2020 13:01:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:01:31 - INFO - root -   id: 2
+04/22/2020 13:01:31 - INFO - root -   original tokens: [CLS] ##k > energy it ra ##dia ##tes per unit of time . [UNK] has units of power . [UNK] lu ##min ##osity of a star is determined by its radius and surface temperature . [UNK] stars do not ra ##dia ##te uniformly across their entire surface . [UNK] rapidly rotating star [UNK] , for example , has a higher energy flux ( power [SEP] as stars ##pot ##s . [UNK] , dwarf stars such as our [UNK] generally have essentially < un ##k > disks with only small stars ##pot ##s . [UNK] stars have much larger , more obvious stars ##pot ##s , and they also exhibit strong stellar limb darkening . [UNK] is , the brightness decreases towards the edge of the stellar disk [SEP]
+04/22/2020 13:01:31 - INFO - root -   tokens: [CLS] ##k [MASK] energy it ra ##dia ##tes per unit of time . [UNK] has units of power . [UNK] lu ##min ##osity of [MASK] star is determined by its radius [MASK] surface temperature . [UNK] [MASK] do not ra ##dia ##te uniformly across their entire surface . [UNK] rapidly rotating [MASK] [UNK] , for example , has a [MASK] spilled flux ( power [SEP] as stars ##pot [MASK] . [UNK] [MASK] [MASK] stars such as ##ici [UNK] generally have essentially < un ##k > disks with [MASK] [MASK] stars ##pot ##s . [UNK] stars have much larger , more obvious stars [MASK] [MASK] , and [MASK] [MASK] [MASK] strong stellar limb darkening . [UNK] is , the brightness decreases towards the edge of the stellar disk [SEP]
+04/22/2020 13:01:31 - INFO - root -   masked_lm_labels: > a and surface stars star higher energy ##s , dwarf our only small ##pot ##s they also exhibit
+04/22/2020 13:01:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 13:01:31 - INFO - root -   masked_lm_positions: 2 24 31 32 36 51 59 60 68 71 72 76 87 88 102 103 106 107 108
+04/22/2020 13:01:31 - INFO - root -   is_random_next : False
+04/22/2020 13:01:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:01:31 - INFO - root -   id: 3
+04/22/2020 13:01:31 - INFO - root -   original tokens: [CLS] for the first time in the [UNK] [UNK] [UNK] . [UNK] the 1st [UNK] [UNK] , each armored regiment was issued twelve [UNK] . [UNK] these , three were used in each battalion headquarters platoon and three were used in each regimental reconnaissance platoon . [UNK] addition , the 6th and 41st [UNK] [UNK] [UNK] were each issued with nine [UNK] [UNK] , [SEP] and two 105 mm < un ##k > [UNK] . [UNK] one encounter in [UNK] [UNK] , the [UNK] was used in an attempt to destroy [UNK] tanks . [UNK] the [UNK] fired several < un ##k > , the [UNK] tanks were barely damaged and the [UNK] were ordered to retreat under the cover of smoke to prevent losses . [UNK] [SEP]
+04/22/2020 13:01:31 - INFO - root -   tokens: [CLS] for the first time in the [UNK] [UNK] [UNK] . [MASK] ##nson 1st [MASK] [UNK] , each armored regiment was issued twelve [UNK] . [UNK] these , three were used in each battalion headquarters platoon [MASK] [MASK] [MASK] used in each regimental [MASK] platoon . [UNK] addition , the 6th [MASK] 41st [UNK] [UNK] [UNK] were each issued with nine [UNK] [UNK] , [SEP] and two 105 mm < un ##k > [UNK] [MASK] [UNK] one encounter in [UNK] [UNK] , the [UNK] was used phi an attempt to destroy [UNK] tanks . [UNK] the [UNK] fired several < un ##k > , the [UNK] tanks were [MASK] damaged [MASK] the [UNK] were ordered to retreat under the cover of ceremonial [MASK] prevent losses . [UNK] [SEP]
+04/22/2020 13:01:31 - INFO - root -   masked_lm_labels: [UNK] the 1st [UNK] were and three were reconnaissance . 6th and . in > barely and smoke to
+04/22/2020 13:01:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 13:01:31 - INFO - root -   masked_lm_positions: 11 12 13 14 29 36 37 38 43 45 50 51 74 86 102 108 110 121 122
+04/22/2020 13:01:31 - INFO - root -   is_random_next : False
+04/22/2020 13:01:31 - INFO - root -   -------------------------Example-----------------------
+04/22/2020 13:01:31 - INFO - root -   id: 4
+04/22/2020 13:01:31 - INFO - root -   original tokens: [CLS] , and was replaced by towed how ##itzer ##s . [UNK] [UNK] was eventually replaced by the [UNK] [UNK] , which was based on the < un ##k > [UNK] light tank , and which began entering service around the same time as the [UNK] . [UNK] 312 [UNK] [UNK] were delivered in their original configuration , as the last 188 were converted [SEP] following changes in the organization of [UNK] infantry battalions , and was replaced by towed how ##itzer ##s . [UNK] [UNK] was eventually replaced by the [UNK] [UNK] , which was based on the < un ##k > [UNK] light tank , and which began entering service around the same time as the [UNK] . [UNK] 312 [UNK] [UNK] were delivered in [SEP]
+04/22/2020 13:01:31 - INFO - root -   tokens: [CLS] , and was replaced by towed how ##itzer ##s . [UNK] [UNK] [MASK] [MASK] replaced by the [UNK] [UNK] , which was based on the < un ##k > [UNK] light tank , and which began entering service around the same time as the [UNK] . [UNK] 312 [UNK] [UNK] were [MASK] [MASK] their original configuration , as the last 188 [MASK] converted [SEP] following changes in the organization of [UNK] infantry ##was , blamed [MASK] replaced by towed how ##itzer ##s . [UNK] [UNK] was eventually replaced by the [UNK] [MASK] , which was [MASK] [MASK] [MASK] [MASK] [MASK] [MASK] > [UNK] light tank , and which began entering service [MASK] the same time as the [UNK] . [UNK] 312 [UNK] [UNK] were delivered in [SEP]
+04/22/2020 13:01:31 - INFO - root -   masked_lm_labels: was eventually and delivered in were infantry battalions and was [UNK] [UNK] based on the < un ##k around
+04/22/2020 13:01:31 - INFO - root -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+04/22/2020 13:01:31 - INFO - root -   masked_lm_positions: 13 14 34 52 53 62 72 73 75 76 85 92 96 97 98 99 100 101 112
+04/22/2020 13:01:31 - INFO - root -   is_random_next : False
